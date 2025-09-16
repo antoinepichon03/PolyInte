@@ -96,12 +96,28 @@ def depthFirstSearch(problem:SearchProblem)->List[Direction]:
     print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
 
-    '''
-        INSÉREZ VOTRE SOLUTION À LA QUESTION 1 ICI
-    '''
+    #Initialisation
+    start = problem.getStartState()
+    pile = util.Stack()
+    pile.push((start,[]))
+    
+    visitee = []
 
-    util.raiseNotDefined()
+    #Parcours en profondeur
+    while not(pile.isEmpty()):
 
+        point_courrant, chemin=pile.pop()
+        if problem.isGoalState(point_courrant) :
+            return( chemin )
+        
+        if point_courrant not in visitee : 
+            visitee.append(point_courrant)
+
+            for successeur in problem.getSuccessors(point_courrant):
+                position,action,cout = successeur
+                nouv_chemin = chemin + [action]
+                pile.push((position,nouv_chemin))
+    return [] #si aucun chermin n'est trouvé  
 
 def breadthFirstSearch(problem:SearchProblem)->List[Direction]:
     """Search the shallowest nodes in the search tree first."""
@@ -110,8 +126,29 @@ def breadthFirstSearch(problem:SearchProblem)->List[Direction]:
     '''
         INSÉREZ VOTRE SOLUTION À LA QUESTION 2 ICI
     '''
+    #Initialisation
+    start = problem.getStartState()
+    queue = util.Queue()
+    queue.push((start,[]))
+    
+    visitee = []
 
-    util.raiseNotDefined()
+    #Parcours en largeur [Meme que au dessus mais on utilise une queue plutot qu'une Pile]
+    while not(queue.isEmpty()):
+
+        point_courrant, chemin=queue.pop()
+        if problem.isGoalState(point_courrant) :
+            return( chemin )
+        
+        if point_courrant not in visitee : 
+            visitee.append(point_courrant)
+
+            for successeur in problem.getSuccessors(point_courrant):
+                position,action,cout = successeur
+                nouv_chemin = chemin + [action]
+                queue.push((position,nouv_chemin))
+    return [] #si aucun chermin n'est trouvé  
+
 
 def uniformCostSearch(problem:SearchProblem)->List[Direction]:
     """Search the node of least total cost first."""
