@@ -158,7 +158,30 @@ def uniformCostSearch(problem:SearchProblem)->List[Direction]:
         INSÉREZ VOTRE SOLUTION À LA QUESTION 3 ICI
     '''
 
-    util.raiseNotDefined()
+    #Initialisation
+    start = problem.getStartState()
+    queue = util.PriorityQueue()
+    queue.push((start,[]))
+    
+    visitee = []
+
+    #Parcours en largeur [Meme que au dessus mais on utilise une queue plutot qu'une Pile]
+    while not(queue.isEmpty()):
+
+        (point_courrant, chemin), ancien_cout =queue.pop()
+        if problem.isGoalState(point_courrant) :
+            return( chemin )
+        
+        if point_courrant not in visitee : 
+            visitee.append(point_courrant)
+
+            for successeur in problem.getSuccessors(point_courrant):
+                position,action,cout = successeur
+                nouv_chemin = chemin + [action]
+                cout_total = cout + ancien_cout
+                queue.push((position,nouv_chemin),cout_total)
+    return [] #si aucun chermin n'est trouvé  
+
 
 def nullHeuristic(state:GameState, problem:SearchProblem=None)->List[Direction]:
     """
