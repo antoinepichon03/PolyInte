@@ -1,0 +1,219 @@
+\documentclass[a4paper, 12pt, french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}[french]
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{hyperref}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{algorithmicx}
+\usepackage{listingsutf8}
+\usepackage{fancyhdr}
+\usepackage{amsthm}
+\definecolor{lightgray}{rgb}{.93,.94,.95}
+
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.85]{beramono}
+\usepackage{listings}
+\lstset{frameshape={RYR}{Y}{Y}{RYR},language=SQL,morekeywords={PREFIX,java,rdf,rdfs,url} extendedchars,
+backgroundcolor=\color{lightgray},
+showstringspaces=false, literate=%
+		{'}{{'}}1 %permet l'écriture d'une apostrophe
+		{é}{{\'e}}1
+		{à}{{\`a}}1
+		{ç}{{\c{c}}}1
+		{œ}{{\oe}}1
+		{ù}{{\`u}}1
+		{É}{{\'E}}1
+		{È}{{\`E}}1
+		{À}{{\`A}}1
+		{Ç}{{\c{C}}}1
+		{Œ}{{\OE}}1
+		{Ê}{{\^E}}1
+		{ê}{{\^e}}1
+		{î}{{\^i}}1
+		{ô}{{\^o}}1
+		{è}{{\`e}}1}
+
+
+\usepackage{lineno}
+\usepackage{float}
+\usepackage{color}
+\usepackage{lineno,hyperref}
+\usepackage{ulem}
+\setlength{\parindent}{0mm}
+\usepackage{relsize}
+
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{xparse}% http://ctan.org/pkg/xparse
+\NewDocumentCommand{\myrule}{O{1pt} O{2pt} O{black}}{%
+  \par\nobreak % don't break a page here
+  \kern\the\prevdepth % don't take into account the depth of the preceding line
+  \kern#2 % space before the rule
+  {\color{#3}\hrule height #1 width\hsize} % the rule
+  \kern#2 % space after the rule
+  \nointerlineskip % no additional space after the rule
+}
+\usepackage[section]{placeins}
+
+\usepackage{booktabs}
+\usepackage{colortbl}%
+   \newcommand{\myrowcolour}{\rowcolor[gray]{0.925}}
+   
+%\usepackage[obeyspaces]{url}
+\usepackage{etoolbox}
+%\usepackage[colorlinks,citecolor=black,urlcolor=blue,bookmarks=false,hypertexnames=true]{hyperref} 
+
+
+\usepackage{geometry}
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=3cm, % Inner margin
+	outer=3cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\setlength{\headheight}{17.2pt}
+\pagestyle{fancy}
+\lhead{INF8085 Cybersécurité}
+\rhead{Automne 2024}
+\renewcommand\footrulewidth{1pt}
+\usepackage{listings}
+\usepackage{color}
+%*******************************************************************************%
+\newcommand{\grando}[1]{O\mathopen{}\left(#1\right)}
+%************************************START**************************************%
+%*******************************************************************************%
+\begin{document}
+
+%*****************************TITLE PAGE*******************************%
+\begin{titlepage}
+\begin{center}
+\textbf{\LARGE \'Ecole Polytechnique de Montr\'eal}\\[0.5cm] 
+\textbf{\large D\'epartement de g\'enie informatique et g\'enie logiciel}\\[0.2cm]
+\vspace{20pt}
+\begin{figure}
+ 	\begin{center}	\includegraphics[width=90mm,scale=1.0]{images/poly.png}
+	\end{center}
+\end{figure}
+
+\par
+\vspace{20pt}
+\vspace{15pt}
+\myrule[1pt][7pt]
+\textbf{\LARGE  Rapport Assignment 1}\\
+\vspace{7pt}
+\textbf{MACHINE LEARNING}\\
+\vspace{6pt}
+\textbf{\large }\\
+\myrule[1pt][7pt]
+
+\vspace{25pt}
+
+{\bfseries Antoine Pichon,} 2489005\\*[8pt]
+
+\vspace{45pt}
+
+\end{center}
+
+\par
+\vfill
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Part 1 : Linear and Weighted Linear Regression}
+Dans cette partie, nous avons implémenté une régression linéaire. 
+Commençons par démontrer, comme il est demandé dans le sujet, que la solution qui minimise la \textit{weighted Ridge Regression Loss Function} est donnée par la formule fermée suivante :
+\begin{equation}
+\omega^* = (X^T X + \Lambda)^{-1} X^T Y
+\end{equation}
+\begin{proof}
+	Premièrement, on note que la fonction est la somme de deux fonctions strictement convexes sur $R^d$ (car $\Lambda$ est symétrique) donc elle admet un minimum global unique. 
+	Soit $L$ la fonction dérivable à minimiser : 
+	\begin{equation}
+	L(\omega) = \lvert\lvert X\omega - Y  \rvert\rvert_2^2 + \omega^T \Lambda \omega
+	\end{equation}
+	Dérivons cette pour $w \in R^d$ fonction terme à terme (en partant du principe qu'on ne redémontre pas la dérivée de la norme 2) :
+	\begin{equation}
+	\frac{d}{d\omega} \lvert\lvert X\omega - Y \rvert\rvert_2^2 = 2 X^T (X\omega - Y) 
+	\end{equation}
+	et, sachant que $\Lambda$ est symétrique :
+	\begin{equation}
+	\frac{d}{d\omega} \omega^T \Lambda \omega = (\Lambda + \Lambda^T) \omega = 2 \Lambda \omega
+	\end{equation}
+	d'où on déduit de (3) et (4) que :
+	\begin{equation}
+	\frac{dL}{d\omega} =  2 X^T (X\omega - Y)  + 2 \Lambda \omega
+	\end{equation}
+	On cherche maintenant le minimum de $L$ en résolvant l'équation $\frac{dL}{d\omega} = 0$ :
+	\begin{align*}
+	0 =  2 X^T (X\omega^* - Y)  + 2 \Lambda \omega^* \\
+	\Leftrightarrow (2 X^T X + 2 \Lambda) \omega^* = 2 X^T Y \\
+	\Leftrightarrow \omega^* = (X^T X + \Lambda)^{-1} X^T Y 
+	\end{align*}
+	ce $\omega$ est donc l'unique minimum global de $R^d$.
+\end{proof}
+On entraîne ensuite notre modèle et on calcule le RMSE et on compare pour chaque régression (ordinaire, ridge regression et weighted ridge regression) les résultats obtenus sur le jeu de données de validation. 
+On obtient les graphiques suivants :
+\\
+\begin{figure}
+	\includegraphics[width=\textwidth]{./images/Figure_1.png}
+\end{figure}
+\newpage
+On remarque ici que les valeurs prédites semblent loin des vraies valeurs.
+En effet, comme le montre le RMSE qui est de l'ordre de grandeur de 12 sachant que les valeurs des données sont plutôt entre -50 et 50, on peut en conclure que le modèle n'est pas très performant.	
+Nous pouvons tout de même dire que le meilleur modèle selon le RMSE est le weighted ridge regression.
+\section{Part 2 : Cross-Validated Model Selection}
+Dans cette partie, nous avons implémenté la validation croisée pour choisir le meilleur paramètre $\lambda$ pour la ridge regression.
+Nous avons testé les valeurs de $\lambda$ suivantes : $[0.01, 0.1, 1, 10, 100]$.
+On obtient les résultats suivants :
+\begin{itemize}
+	\item Metric : RMSE, Best lambda : 1, Score : 9.48
+	\item Metric : MAE, Best lambda : 1, Score : 9.47
+	\item Metric : MaxError, Best lambda : 10, Score : 9.59
+\end{itemize}
+On remarque que le meilleur $\lambda$ est 1 pour les métriques RMSE et MAE et 10 pour la métrique MaxError.
+
+\section{Part 3 : Gradient Descent for Ridge Regression with Learning Rate Schedules}
+Dans cette partie, nous avons implémenté la descente de gradient pour la ridge regression.
+Nous avons comparé les différentes schedules et avons tracé les loss en fonction du nombre d'itérations.
+On obtient les graphiques suivants :
+\newpage
+\begin{figure}
+	\includegraphics[width=\textwidth]{./images/Figure_2.png}
+\end{figure}
+On remarque que la schedule Exponential decay et constant sont les plus performantes mais ce graphique ne nous permet pas de comparer clairement ces deux modèles. 
+En effet, ces deux modèles ont une vitesse de convergence plus rapide et leurs loss finaux sont plus bas que pour l'autre modèle.
+On peut ensuite essayer de comparer les modèles grâce au RMSE que nous renvoie le terminal : 
+
+\begin{itemize}
+	\item RMSE for constant: 14.835124597042826
+	\item RMSE for expdecay: 14.837655857740783
+	\item RMSE for cosine: 14.886059843854753
+\end{itemize}
+
+On remarque encore que les modèles constant et expdecay sont les plus performants et ont des RMSE très proches.
+Nos expériences ne nous permettent pas de comparer ces deux modèles de manière claire.
+
+\newpage
+\section{Références}
+	\begin{itemize}
+		\item Le template \LaTeX{} a été adapté de celui donné pour le cours INF8085 Cybersécurité.
+		\item L'utilisation d'une IA générative pour la correction grammaticale et orthographique a été faite comme cela est autorisé dans le sujet. 
+	\end{itemize}
+\end{document}

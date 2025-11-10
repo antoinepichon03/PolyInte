@@ -1,0 +1,29 @@
+(space) = 374
+A = 181
+B = 199
+C = 67
+D = 0
+E = 159
+F = 181
+G = 234
+H = 94
+I = 26
+J = 79
+K = 4
+L = 60
+M = 2
+N = 230
+O = 47
+P = 80
+Q = 120
+R = 363
+S = 74
+T = 49
+U = 171
+V = 189
+W = 10
+X = 18
+Y = 119
+Z = 70
+Nombre total de caracteres : 3200
+Entropie de l'entree : 4.231383

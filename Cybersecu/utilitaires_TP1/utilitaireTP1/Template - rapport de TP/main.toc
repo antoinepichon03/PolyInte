@@ -1,3 +1,0 @@
-\babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Modèle déterministe}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}modèle comportemental}{2}{subsection.1.1}%

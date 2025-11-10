@@ -1,0 +1,1 @@
+Usage : masque fichier_cle taille_cle fichier_message fichier_sortie

@@ -1,0 +1,29 @@
+(space) = 112
+A = 95
+B = 117
+C = 123
+D = 102
+E = 121
+F = 92
+G = 87
+H = 111
+I = 122
+J = 128
+K = 94
+L = 133
+M = 135
+N = 129
+O = 118
+P = 106
+Q = 129
+R = 103
+S = 92
+T = 124
+U = 109
+V = 119
+W = 99
+X = 103
+Y = 93
+Z = 100
+Nombre total de caracteres : 2996
+Entropie de l'entree : 4.743233

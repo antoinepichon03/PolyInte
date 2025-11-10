@@ -1,0 +1,619 @@
+\documentclass[a4paper, 12pt, french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}[french]
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{hyperref}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{algorithmicx}
+\usepackage{listingsutf8}
+\usepackage{fancyhdr}
+\usepackage{seqsplit}
+\definecolor{lightgray}{rgb}{.93,.94,.95}
+
+
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.85]{beramono}
+\usepackage{listings}
+\lstdefinestyle{python}{
+	language=Python,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{blue}\bfseries,
+	commentstyle=\color{gray}\itshape,
+	stringstyle=\color{red},
+	showstringspaces=false,
+	backgroundcolor=\color{lightgray},
+	frame=single,
+	breaklines=true
+}
+
+
+\lstset{frameshape={RYR}{Y}{Y}{RYR},language=SQL,morekeywords={PREFIX,java,rdf,rdfs,url} extendedchars,
+backgroundcolor=\color{lightgray},
+showstringspaces=false, literate=%
+		{'}{{'}}1 %permet l'écriture d'une apostrophe
+		{é}{{\'e}}1
+		{à}{{\`a}}1
+		{ç}{{\c{c}}}1
+		{œ}{{\oe}}1
+		{ù}{{\`u}}1
+		{É}{{\'E}}1
+		{È}{{\`E}}1
+		{À}{{\`A}}1
+		{Ç}{{\c{C}}}1
+		{Œ}{{\OE}}1
+		{Ê}{{\^E}}1
+		{ê}{{\^e}}1
+		{î}{{\^i}}1
+		{ô}{{\^o}}1
+		{è}{{\`e}}1}
+
+
+\usepackage{lineno}
+\usepackage{float}
+\usepackage{color}
+\usepackage{lineno,hyperref}
+\usepackage{ulem}
+\setlength{\parindent}{0mm}
+\usepackage{relsize}
+
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{xparse}% http://ctan.org/pkg/xparse
+\NewDocumentCommand{\myrule}{O{1pt} O{2pt} O{black}}{%
+  \par\nobreak % don't break a page here
+  \kern\the\prevdepth % don't take into account the depth of the preceding line
+  \kern#2 % space before the rule
+  {\color{#3}\hrule height #1 width\hsize} % the rule
+  \kern#2 % space after the rule
+  \nointerlineskip % no additional space after the rule
+}
+\usepackage[section]{placeins}
+
+\usepackage{booktabs}
+\usepackage{colortbl}%
+   \newcommand{\myrowcolour}{\rowcolor[gray]{0.925}}
+   
+%\usepackage[obeyspaces]{url}
+\usepackage{etoolbox}
+%\usepackage[colorlinks,citecolor=black,urlcolor=blue,bookmarks=false,hypertexnames=true]{hyperref} 
+
+
+\usepackage{geometry}
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=3cm, % Inner margin
+	outer=3cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\setlength{\headheight}{17.2pt}
+\pagestyle{fancy}
+\lhead{INF8085 Cybersécurité}
+\rhead{Automne 2025}
+\renewcommand\footrulewidth{1pt}
+\usepackage{listings}
+\usepackage{color}
+%*******************************************************************************%
+\newcommand{\grando}[1]{O\mathopen{}\left(#1\right)}
+%************************************START**************************************%
+%*******************************************************************************%
+\begin{document}
+
+%*****************************TITLE PAGE*******************************%
+\begin{titlepage}
+\begin{center}
+\textbf{\LARGE \'Ecole Polytechnique de Montr\'eal}\\[0.5cm] 
+\textbf{\large D\'epartement de g\'enie informatique et g\'enie logiciel}\\[0.2cm]
+\vspace{20pt}
+\begin{figure}
+ 	\begin{center}	\includegraphics[width=90mm,scale=1.0]{images/poly.png}
+	\end{center}
+\end{figure}
+
+\par
+\vspace{20pt}
+\vspace{15pt}
+\myrule[1pt][7pt]
+\textbf{\LARGE  Travail Pratique 1}\\
+\vspace{7pt}
+\textbf{INF8085}\\
+\vspace{6pt}
+\textbf{\large }\\
+\myrule[1pt][7pt]
+
+\vspace{25pt}
+
+{\bfseries SOUMIS PAR :} \\*[8pt]
+{\bfseries Antoine Pichon,} 2489005\\*[8pt]
+{\bfseries Abdel Hamadouche,} 2217813\\*[8pt]
+{\bfseries Le 10/07/2025} \\*[8pt]
+
+
+\vspace{45pt}
+
+\end{center}
+
+\par
+\vfill
+
+\end{titlepage}
+
+
+
+
+
+%********************************%
+%***********  TOC  ************%
+%********************************%
+\tableofcontents
+\newpage
+
+\section{Entropie et sources d’information}
+\subsection{Question 1}
+Dans le cas d'un alphabet de 32 caractère, l'Entropie moyenne par caractère se calcul grace à la formule de Shannon:
+$$H(X) = - \sum_{i=1}^{n} p(x_i) \log_2(p(x_i))$$
+Avec $n$ le nombre de caractère dans l'alphabet
+et $p(x)$ la probabilité d'apparition du caractère x dans le texte.
+Dans notre cas, les probabilités sont toutes égales donc $p(x) = \frac{1}{32}$.
+Donc l'entropie moyenne par caractère est:
+$$H(X) = - \sum_{i=1}^{32} \frac{1}{32} \log_2(\frac{1}{32}) = - 32 * \frac{1}{32} * \log_2(\frac{1}{32}) = 5$$
+Donc l'entropie moyenne par caractère est de 5 bits.
+\subsection{Question 2}
+Dans notre cas, la distribution est uniforme donc on peut dire que l'entropie maximale est atteinte.
+\subsection{Question 3}
+Il n'est pas possible de compresser un texte dont les caractères sont distribués uniformément.
+En effet, la compression de données repose sur la redondance de motifs or dans notre cas, il n'y a pas de redondance car les motifs sont tous généré aléatoirement indépendamment les uns des autres.
+\subsection{Question 4}
+Dans le cadre de la compression, plus le texte (ou l'image) à de redondance, plus il est possible de le compresser sans perdre d'information.
+Souvent, on trouve dans les textes (peu importe la langue) des motifs cohérent qui se répète et qui permettent de compresser les textes. Dans le cas des images, celle ci peuvent avoir des motifs géométrique ou de symétrie ou autres qui permetten de les cohmpresser. 
+On peut conclure en disant que plus l'entropie est faible, plus il est possible de compreser un texte, une image, ou autre sans perdre d'information
+
+\section{La librairie de Babel}
+\subsection{Question 1 et 2}
+Nous avons calculé grace à l'executable "h-ascii" l'entropie des deux textes : 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=120mm,scale=1.0]{./images/Babel/text1.png}
+	\includegraphics[width=120mm,scale=1.0]{./images/Babel/textTotal.png} 
+\end{figure}
+\newpage
+Le premier terminal correspond au texte de la bibliothèque de babel de 3240 octets. et on remarque que l'entropie est de 4.889 bits par caractère.
+Le second terminal correspond à la concaténation de deux textes de la bibliothèque de babel de 3240 octets chacun. On remarque que l'entropie est de 4.891 bits par caractère.
+\subsection{Question 3}
+On observe que les entropies des deux textes sont très proches, et toutes deux avoisinent les 5 bits par caractère. 
+Cela indique que les caractères sont distribués de manière quasi aléatoire, avec peu ou pas de redondance exploitable.
+ Le fait que le second texte soit deux fois plus long que le premier, tout en conservant une entropie similaire, 
+ confirme que chaque caractère suit une loi pratiquement uniforme. On peut donc conclure que les textes issus de la 
+ Librairie de Babel sont générés de façon presque aléatoire.
+ 
+\subsection{Question 4}
+La biblothèque de Babel génère des textes en combinant aléatoirement des caractères de son alphabet.
+Cela signifie que les pages de ses livres ont une entropie très élevée (proche de 5 bits par caractère) et donc une redondance très faible.
+En conséquence, ces textes sont pratiquement incompressibles car il n'y a pas de motifs répétitifs ou de structures exploitables pour la compression. 
+
+\section{Histogrammes}
+Nous avons généré quatres histogrammes 
+
+\subsection{Question 3}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./images/Hist/babeltab.png}
+    \caption{Histogramme des fréquences des lettres dans le texte extrait de la Librairie de Babel.}
+    \vspace{0.5cm}
+    
+    \includegraphics[width=0.9\textwidth]{./images/Hist/roq13tab.png}
+    \caption{Histogramme des fréquences des lettres après chiffrement ROT13 du texte de Babel.}
+\end{figure}
+\newpage
+\subsection{Question 5}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./images/Hist/freq_hist_lettre.png}
+    \caption{Histogramme des fréquences des lettres dans le texte généré avec \texttt{lettre}.}
+    \vspace{0.5cm}
+    
+    \includegraphics[width=0.9\textwidth]{./images/Hist/lettre_hist_roq13.png}
+    \caption{Histogramme des fréquences des lettres après chiffrement ROT13 du texte généré avec \texttt{lettre}.}
+\end{figure}
+\newpage
+\subsection{Question 6}
+On remarque premièrement que les histogrammes des textes générés avec \texttt{babel} sont très plats, indiquant une distribution uniforme des dans Babael. 
+Cependant, on remarque que lettre présente des pics de fréquences pour certaines lettres, suggérant une distribution non uniforme.Les lettres sont proportionnellement plus fréquentes que d'autres, ce qui est typique des textes en langue Anglaise.
+On remarque que une fois chiffré par ROQ13, les distributions sont plus ou moins les memes, seulement, les pics ne sont plus sur les mêmes lettres. 
+Si on avait fait l'études sur deux lettres, on aurait vu des pics sur les doublons de lettres utilisé souvent en anglais comme "th" ou "in". Cependant sur la distribution de babel, se serait toujours réparti uniformément.
+\subsection{Question 7}
+
+Dans le cas du texte généré par \texttt{babel}, la génération étant aléatoire, comptabiliser les fréquences sur deux lettres ne faciliterait pas le déchiffrement. Les motifs seraient répartis de manière uniforme, sans structure exploitable.
+En revanche, pour le texte généré avec \texttt{lettre}, l’analyse des bigrammes permettrait de repérer des séquences typiques de l’anglais. Cela faciliterait l’identification de motifs linguistiques et pourrait aider à reconstruire le sens du message, même après chiffrement.
+
+
+\section{Masque jetable}
+\subsection{Question 1}
+Voici le code, avec les explications en commentaires:
+\begin{lstlisting}[style=python, caption=Code du chiffrement par masque jetable]
+#Génération d'un masque de taille length avec des bits aléatoires grance a la bibliothèque random
+import random
+def generate_mask(length=10):
+    return [random.randint(0,1) for _ in range(length)]
+
+#Methode plus sécurisée pour généré des bits aléatoires
+#Dans ce cas, le random crée est plus robuste car il se base sur le systeme 
+# d'exploitation et non pas sur une graine qui pourrait être trouvé.  (cas de random)
+
+import secrets
+
+def generate_secure_mask(length=10):
+    return [secrets.randbits(1) for _ in range(length)]
+
+#importation du texte
+text = "E ...RK"
+texte_sans_espace = text.replace(" ", "")[:100]
+
+# On génère les deux clés de bonne taille. 
+taille_cle = len(texte_sans_espace) * 8
+cle_random = ''.join(str(bit) for bit in generate_mask(taille_cle))
+cle_secure = ''.join(str(bit) for bit in generate_secure_mask(taille_cle))
+
+
+
+print("cle random",cle_random)
+print("cle sécure",cle_secure)
+\end{lstlisting}
+
+\subsection{Question 3}
+Voici les résultats obtenus : 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./images/masque /entropiefinalmasque.png}
+    \caption{Terminal contenant les résultats d'entropie}
+\end{figure}
+\subsection{Question 4}
+Nous avons donc obtenus une entropie (calculé par h-bit) avant avoir appliqué le masque de 0.978. Après avoir apliqué le masque généré par la bibliothèque random
+de base de python, nous avons obtenus une entropie de 0.985 et enfin, après avoir appliqué le masque généré par la bibliothèque "secrets", nous avons obtenus une entropie de 0.986.
+
+Deplus, dans le cas du calcule d'entropie par h-ascii, nous avons obtenus une entropie avant application du masque de 4.53 bits/caractère. En appliquant le masque généré par la bibliothèque random, nous avons obtenus une entropie de 4.52 bits/caractère et enfin, en appliquant le masque généré par la bibliothèque "secrets", nous avons obtenus une entropie de 4.60 bits/caractère.
+
+Concernant la robustesse des générateurs de nombre aléatoire, on remarque que le masque généré par la bibliothèque secret est plus robuste car l'entropie calculé est plus basse. 
+Cela signifie que l'aléatoire généré est moins prévisible que celui de la bibliothèque random. 
+
+Ces résultats confirment que l'utilisation de \texttt{secrets} permet de générer des masques plus aléatoires et donc plus efficaces pour des applications
+nécessitant une forte entropie. À l'inverse, la bibliothèque \texttt{random}, bien qu'adéquate pour des usages généraux, ne garantit pas une entropie suffisante dans des contextes de sécurité.
+
+\section{Communication à clé publique, HTTPS et SSL}
+\subsection{Question 1}
+HTTP envoie les données en clair, sans confidentialité ni vérification du serveur. HTTPS chiffre les échanges et garantit l’identité du site grâce à un certificat SSL/TLS [1].
+\subsection{Question 2}
+Le site du dossier étudiant n’est accessible qu’en HTTPS car il manipule des informations sensibles et doit protéger les données des étudiants. Une tentative en HTTP échoue donc, car le serveur refuse les connexions non sécurisées. La solution sécuritaire est d’installer un certificat valide et de rediriger automatiquement toutes les requêtes HTTP vers HTTPS [2].
+\subsection{Question 3}
+Le header Strict-Transport-Security (HSTS) indique au navigateur de n’accepter que des connexions HTTPS pour un site pendant une durée donnée (max-age). Ainsi, même si l’utilisateur tape http://, le navigateur force automatiquement le passage en HTTPS. Cela empêche les attaques de type “downgrade” ou interception qui exploiteraient une connexion non chiffrée [3].
+\subsection{Question 4}
+Un certificat à clé publique associe une identité (comme le nom de domaine d’un site) à une clé publique. Le navigateur vérifie l’authenticité du certificat en suivant une chaîne de confiance : il contrôle que le certificat du site est signé par une autorité de certification (CA) reconnue et que le nom de domaine correspond, avant d’autoriser la connexion [4].
+
+\subsection{Question 5}
+Les captures ci-dessous présentent le certificat auto-signé généré avec OpenSSL (cert.pem). On peut y voir les informations principales : numéro de série, algorithme de signature, émetteur, sujet, période de validité, ainsi que les extensions comme le Subject Alternative Name (SAN).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{./images/nofufu/image2.png}
+    \vspace{0.5cm}
+    \includegraphics[width=0.9\textwidth]{./images/nofufu/image1.png}
+\end{figure}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/tab1.png}
+\end{figure}
+\subsection{Question 6}
+Voici un lien github qui comporte le scripte python : \url{https://gist.github.com/SeanPesce/af5f6b7665305b4c45941634ff725b7a}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image3.png}
+\end{figure}
+\subsection{Question 7}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image4.png}
+\end{figure}
+Lorsqu’on tente d’accéder au serveur HTTPS local avec Firefox, le navigateur affiche une erreur de sécurité : le certificat utilisé est auto-signé et n’a pas été émis par une autorité de certification (CA) reconnue. Cela signifie que Firefox ne peut pas vérifier l’identité du site et considère donc la connexion comme non sécurisée.
+Pour contourner ce problème, deux approches existent. La plus simple est d’accepter manuellement le risque dans Firefox en ajoutant une exception de sécurité, ce qui permet d’accéder malgré tout au site. La solution correcte consiste plutôt à créer une autorité de certification locale, signer notre certificat avec celle-ci, puis importer cette autorité dans Firefox. Ainsi, le navigateur reconnaît notre certificat comme valide et n’affiche plus d’erreur.
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image5.png}
+\end{figure}
+Dans Firefox, il suffit d’aller dans les paramètres, section Certificates, puis d’importer notre CA locale pour que le certificat soit reconnu et éviter l’erreur.
+
+
+
+\section{Codage}
+\subsection{Question 1}
+Premierement, l'alphabet $\sigma$ correspond à l'alphabet que peut composer le client pour écrire sont NIP. 
+C'est a dire : "0-9" et "A-Z".
+
+Puis, l'alphabet $\tau$ est celui en sortie du codeur. C'est donc un alphabet d'octet qui permet d'encoder du ASCII soit $\{0,1\}^{8}$. 
+
+Puis, l'alphabet $\tau'$ est l'alphabet dans lequel est chiffré le NIP codé. C'est a dire, comme le NIP codé est de 8 octets soit 64 bits,
+cette alphabet est donc un bloc de 64 bits soit l'alphabets est  $\{0,1\}^{64}$.
+
+
+\subsection{Question 2}
+Les NIP sont composés de 4 caractères. Donc le language $L_{\sigma} = \sigma^4$.
+
+Puis, chaque NIP est répété 2 (est donc écrit en 8 Ascii) fois donc le langage $L_{\tau} = \{x \in \tau^{8}|x = y y , y\in \tau^4\}$.
+
+Enfin, le NIP codé est chiffré par un chiffrement par bloc de 64 bits. Donc le langage $L_{\tau'} = \{x \in \{0,1\}^{64}|x = encodage(y), y \in L_\tau\}$.
+
+\subsection{Question 3}
+Plusieurs types d’attaques peuvent être envisagés.
+
+Tout d’abord, puisque le NIP est toujours chiffré de la même manière, un attaquant pourrait intercepter un message chiffré et le réutiliser pour tenter une connexion plus tard (attaque par rejeu)
+
+Ensuite, la répétition du NIP dans le codage introduit de la redondance. Cette redondance pourrait être exploitée pour analyser le message chiffré et tenter d’en extraire des informations sur le NIP original.
+
+Enfin, bien que l’espace des NIP soit de taille $36^4$, ce qui représente un nombre important de combinaisons, il reste envisageable de mener une attaque par force brute, surtout si l’attaquant dispose de ressources suffisantes.
+
+\section{Changement de Codage}
+
+\subsection{Question 1}
+Pour chacun des trois codages proposés, voici les attaques du 4.6.3 qu'ils permettent de bloquer :
+
+\begin{itemize}
+	\item \textbf{Codage 1 :} Le NIP est codé sur 16 bits (14 bits + 2 bits de parité) et concaténé avec un nombre aléatoire de 48 bits. Cela empêche la réutilisation du même message chiffré, car le nombre aléatoire change à chaque fois. Cependant, il n'empêche pas une attaque par force brute sur le NIP, ni l'exploitation d'une éventuelle redondance si le NIP est faible.
+	\item \textbf{Codage 2 :} Le NIP est codé sur 16 bits, concaténé avec 16 bits aléatoires et un timestamp Unix de 32 bits. Ici, l'ajout du timestamp permet à la banque de rejeter les messages trop anciens, ce qui bloque efficacement les attaques par rejeu. Le nombre aléatoire ajoute aussi de l'entropie, rendant plus difficile la recherche de motifs.
+	\item \textbf{Codage 3 :} Le nouveau et l'ancien NIP sont codés sur 16 bits chacun, puis concaténés avec un timestamp de 32 bits. Ce codage permet de vérifier que le changement de NIP est bien effectué (en comparant l'ancien et le nouveau), et le timestamp bloque les attaques par rejeu. Cependant, il n'y a pas de nombre aléatoire, donc si le même changement de NIP est soumis plusieurs fois dans un court laps de temps, le message chiffré sera identique ce qui peut correspondre a une faille dans la sécurité.
+\end{itemize}
+
+\subsection{Question 2}
+Selon moi, le meilleur codage est le \textbf{Codage 2}. Il combine un timestamp (pour empêcher les attaques par rejeu) et un nombre aléatoire (pour éviter les  redondances et rendre chaque message unique, même si le même NIP est soumis plusieurs fois). Cela offre une bonne protection contre les attaques par rejeu et rend plus difficile l'analyse statistique ou la force brute sur les messages chiffrés.
+
+
+\section{Chiffrement par bloc et modes d’opération}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image6.png}
+	\caption{Image originale (mdp.jpg) : mot de passe “SATA” avant chiffrement.}
+\end{figure}
+\subsection{Question 1}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image7.png}
+	\caption{Exécution du chiffrement en mode ECB avec affichage de la commande et du fichier généré.}
+	\vspace{0.5cm}
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image8.png}
+	\caption{Résultat du chiffrement en mode ECB}
+\end{figure}
+En chiffrant l’image avec ECB, on remarque que la structure reste encore visible. On distingue clairement des formes, car des blocs identiques sont chiffrés de la même façon. Cela prouve qu’ECB ne masque pas bien l’information et n’est pas adapté pour protéger des images.
+\subsection{Question 2}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image9.png}
+	\caption{Exécution du chiffrement en mode CBC avec affichage de la commande et du fichier généré.}
+	\vspace{0.5cm}
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image10.png}
+	\caption{Résultat du chiffrement en mode CBC}
+\end{figure}
+Les modes d’opération jouent un rôle très important dans le chiffrement par bloc. Avec ECB, on voit que les blocs identiques donnent un résultat identique, ce qui fait que des motifs apparaissent encore dans l’image et que la confidentialité n’est pas garantie. En utilisant CBC, les blocs dépendent les uns des autres avec un vecteur d’initialisation, ce qui fait disparaître toute structure visible. Cela montre que le choix du mode influence directement le niveau de sécurité et que certains modes comme CBC offrent une bien meilleure protection que ECB.
+\section{Organisation des mots de passe en UNIX/Linux}
+\subsection{Question 1}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image11.png}
+	\caption{Prompt root et vérification d’identité}
+	\vspace{0.5cm}
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image13.png}
+	\vspace{0.5cm}
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image12.png}
+	\caption{Affichage de /etc/passwd : contenu complet du fichier /etc/passwd (liste des comptes système et champs associés).}
+\end{figure}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.7\textwidth]{./images/nofufu/image15.png}
+	\vspace{0.5cm}
+	\includegraphics[width=0.7\textwidth]{./images/nofufu/image14.png}
+	\caption{Extraction des champs login: password : on voit que la 2\textsuperscript{e} colonne contient x pour chaque compte (le hash n'est pas ici).}
+\end{figure}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.7\textwidth]{./images/nofufu/image16.png}
+	\caption{Permissions de /etc/passwd : /etc/passwd est lisible par tous (-rw-r--r--).}
+	\vspace{0.5cm}
+	\includegraphics[width=0.7\textwidth]{./images/nofufu/image17.png}
+	\caption{Permissions de /etc/shadow : /etc/shadow appartient à root:shadow et a des droits restreints.}
+\end{figure}
+J’ai ouvert /etc/passwd et on voit la liste des comptes système. La deuxième colonne contient des x et pas les mots de passe : cela signifie que les hachés des mots de passe ne sont pas stockés dans ce fichier. Les vrais hachés sont dans /etc/shadow, qui est réservé à root (et au groupe shadow). On le voit aussi avec les permissions : /etc/passwd est lisible par tous (-rw-r--r--) parce que des services ont besoin de connaître les comptes, tandis que /etc/shadow a des droits restreints (propriété root:shadow, lecture limitée) pour protéger les hachés contre les accès non autorisés.
+\subsection{Question 2}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.7\textwidth]{./images/nofufu/image18.png}
+	\caption{Affichage initial de /etc/passwd et /etc/shadow avec leurs permissions.}
+	\vspace{0.5cm}
+	\includegraphics[width=0.7\textwidth]{./images/nofufu/image19.png}
+	\caption{Création d’un nouvel utilisateur “Abdelmalek” avec useradd (exit code 0 = succès).}
+	\vspace{0.5cm}
+	\includegraphics[width=0.7\textwidth]{./images/nofufu/image20.png}
+	\caption{Vérification de l’ajout : nouvelle ligne pour Abdelmalek dans /etc/passwd et entrée correspondante dans /etc/shadow + permissions actuelles de /etc/passwd et /etc/shadow après l’ajout de l’utilisateur.}
+\end{figure}
+J’ai utilisé la commande useradd -g users -s /bin/bash -m Abdelmalek pour créer un nouvel utilisateur. Après exécution, on remarque que /etc/passwd contient une nouvelle ligne pour l’utilisateur Abdelmalek avec son UID, GID, répertoire personnel et shell. Dans la colonne mot de passe, on retrouve simplement x, ce qui signifie que l’information du mot de passe est gérée ailleurs. En parallèle, une nouvelle entrée apparaît aussi dans /etc/shadow avec le champ de mot de passe initialisé à ! ou !!, indiquant qu’aucun mot de passe n’est encore défini pour ce compte. Ainsi, la création d’un utilisateur modifie les deux fichiers : /etc/passwd pour l’identité et les informations générales, et /etc/shadow pour réserver l’espace du mot de passe (qui reste vide tant qu’on ne l’a pas défini). Les permissions des fichiers restent les mêmes : /etc/passwd accessible en lecture par tous, tandis que /etc/shadow est restreint à root et au groupe shadow pour des raisons de sécurité.
+\subsection{Question 3}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image21.png}
+	\caption{Exécution de passwd Abdelmalek puis vérification : /etc/passwd et /etc/shadow mis à jour, et permissions des fichiers.}
+\end{figure}
+J’ai donné un mot de passe au compte Abdelmalek avec la commande passwd Abdelmalek. Après l’opération, la ligne dans /etc/passwd n’a pas changé pour le champ mot de passe (on y voit toujours x), alors que /etc/shadow a été mise à jour : on observe maintenant une valeur hachée pour Abdelmalek. Cela confirme que l’information du mot de passe n’est pas stockée dans /etc/passwd mais dans /etc/shadow. Les permissions confirment la protection : /etc/passwd est lisible par tous (-rw-r--r--) tandis que /etc/shadow est restreint (root:shadow, lecture limitée), ce qui empêche les utilisateurs non privilégiés d’accéder aux hachés.
+\subsection{Question 4}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image22.png}
+	\caption{Capture : exécution de passwd Abdelmalek et confirmation : montre que le mot de passe a bien été mis à jour (message de succès).}
+\end{figure}
+J’ai remis exactement le même mot de passe pour le compte Abdelmalek en relançant passwd Abdelmalek. Après la mise à jour, la ligne dans /etc/passwd n’a pas changé (la colonne mot de passe reste x), alors que la valeur dans /etc/shadow est différente de celle précédente (on voit un nouveau haché).
+\begin{lstlisting}[breaklines=true,columns=fullflexible,basicstyle=\ttfamily\small,frame=single]
+Avant (4.9.3):\\
+Abdelmalek:$y$j9T$mmHwflaerl0.4eJjoB.NA0$6SN1PjGbrrfk7l0aVvCoLgn10acXYg6f6tL6inE1dQC:20362:0:99999:7:::\\
+Après (4.9.4):\\
+Abdelmalek:$y$j9T$KtIOutWbUN6GFyxjfIdwW0$oGl9p9D.usFJBied4xUv3.0oz1LZGQOsd.Qz.3LJ5gD:20363:0:99999:7:::\\
+\end{lstlisting}
+Cela s’explique par le fait que le hachage stocké utilise un salt (et parfois des paramètres comme le nombre de tours) qui est généralement régénéré à chaque modification : même mot de passe → haché stocké différent. L’authentification n’en est pas affectée, car le système utilise le sel stocké dans shadow pour vérifier correctement le mot de passe. Les permissions confirment la protection : shadow est restreint (root:shadow) et passwd reste lisible par tous.
+\subsection{Question 5}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image23.png}
+	\caption{Création de l’utilisateur Antoine puis affichage des dernières lignes de /etc/passwd et /etc/shadow (avant édition).}
+	\vspace{0.5cm}
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image24.png}
+	\caption{Édition de /etc/shadow : on copie le haché d’Abdelmalek vers Antoine ; vérification montrant les deux lignes (hachés identiques).}
+	\vspace{0.5cm}
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image25.png}
+	\caption{Déconnexion de root et tentative de connexion en utilisateur normal : su - Antoine demande le mot de passe et la connexion aboutit.}
+\end{figure}
+J’ai créé un deuxième utilisateur (Antoine) puis j’ai ouvert le fichier /etc/shadow. Au départ, son champ mot de passe était vide (!!). J’ai remplacé cette valeur par le haché de l’utilisateur Abdelmalek. Après avoir sauvegardé le fichier et quitté la session root, j’ai essayé de me connecter avec su - Antoine. Le système m’a demandé un mot de passe, et en entrant celui d’Abdelmalek, la connexion a fonctionné. Cela prouve que oui, c’est possible. L’explication est simple : l’authentification utilise uniquement le haché présent dans /etc/shadow. Si deux utilisateurs ont exactement le même haché, alors ils partagent le même mot de passe effectif. Le problème, c’est que si quelqu’un arrive à modifier /etc/shadow, il peut donner à n’importe quel compte le mot de passe d’un autre utilisateur, ce qui est une faille de sécurité très sérieuse. C’est pour ça que le fichier /etc/shadow doit être protégé avec des permissions strictes et accessible uniquement par root.
+\subsection{Question 6}
+On ne peut pas déchiffrer un haché, parce qu’un hachage est une fonction à sens unique. En effet, on transforme le mot de passe en une valeur fixe et on ne peut pas remonter directement au mot de passe original. Ce que font les attaquants, c’est deviner des mots de passe, les hacher eux-mêmes puis comparer le résultat au haché volé. Les méthodes courantes sont :
+\begin{itemize}
+	\item Brute force : essayer toutes les combinaisons possibles (lent si le mot de passe est long).
+	\item Attaque par dictionnaire / règles : tester des mots du dictionnaire et variantes (ajouts de chiffres, majuscules, etc.), c’est beaucoup plus rapide si la victime utilise un mot simple.
+	\item Tables pré-calculées (rainbow tables) : jeux de hachés déjà calculés pour des mots courants (ces tables deviennent inutiles si on utilise un salt).
+\end{itemize}
+Et on s’en protège comment ? En utilisant des mots de passe longs et uniques, en stockant les mots de passe avec un salt unique et un algorithme lent/spécialisé, En appliquant des limites de tentatives, et en activant l’authentification multi-facteur. Ces mesures rendent les attaques beaucoup plus difficiles et lentes [5] [6].
+\section{Choix des mots de passe }
+\subsection{Question 1}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image26.png}
+	\caption{Exécution de John the Ripper avec le dictionnaire rockyou.txt sur le fichier passwords : la première commande affiche les mots de passe trouvés (123456789 : simple, sunshine : brian, monkey : action, liverpool : vladimir).}
+\end{figure}
+\subsection{Question 2}
+Il ne faut pas utiliser le même mot de passe partout parce que si un service est compromis, l’attaquant pourra ensuite accéder à tous tes autres comptes avec le même mot de passe. Autrement dit, la réutilisation d’un mot de passe multiplie l’impact d’une fuite : une seule fuite suffit pour compromettre plusieurs services. Par exemple, si on utilises le même mot de passe pour une boîte mail et pour un compte universitaire, et que le mot de passe fuit après une attaque contre un site tiers, un attaquant pourra récupérer les e-mails puis demander une réinitialisation de mot de passe sur d’autres services (banque, comptes scolaires, etc.) et prendre le contrôle de ces comptes.
+\subsection{Question 3}
+Les deux questions sont liées. Ce qu’on a expliqué en 4.9.6 montre comment un attaquant peut récupérer un mot de passe à partir d’un haché (attaque par dictionnaire, brute force, rainbow tables, etc.). Ce qu’on a dit en 4.10.2 explique pourquoi il ne faut pas réutiliser ce mot de passe. Concrètement, si un attaquant vole un haché sur un site et réussit à le cracker (par exemple avec John + rockyou), il obtient le mot de passe en clair. Si ce même mot de passe est utilisé sur d’autres services, l’attaquant n’a plus qu’à l’essayer partout et peut prendre plusieurs comptes d’un coup.
+\section{Déchiffrement simple }
+Pour l’équipe 17 du groupe 3, nous avons eu cette ligne à déchiffrer :
+{\small\ttfamily
+\noindent\seqsplit{LZRHYZRZMNVFR@YA@ZLSINRRMNRML@RDNEZRLOHSURY@RVSRZVON@RHJRENLINR@ZLSCVSURLFOVN@RBVZMHYZRZMNRIHS@NSZRHJRHYFRWNUV@WLZYFN@RRMNRML@RLJJNIZNCRZHRFNSCNFRZMNROVWVZLFTRVSCNENSCNSZRHJRLSCR@YENFVHFRZHRZMNRIVXVWR}
+}
+
+\subsection{Question 1}
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image27.png}
+	\caption{Résultats de l’utilitaire frequency sur le fichier ligne17.txt}
+\end{figure}
+\subsection{Question 2}
+Tout d’abord, nous avons décidé d’utiliser un petit script Python pour automatiser le déchiffrement du texte. Ce code permettait de remplacer automatiquement chaque lettre chiffrée par sa correspondance dans la table de substitution que nous avons construite étape par étape. L’utilisation du code n’était pas obligatoire, mais elle nous a permis de gagner du temps et d’éviter les erreurs manuelles pendant le processus de décodage. Voici le code :
+\begin{figure}[H]
+    \centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image28.png}
+\end{figure}
+\subsubsection*{Étape 1 - Trouver l’espace (R $\rightarrow$ espace)}
+J’ai commencé par regarder les fréquences. La lettre R est la plus fréquente ($\sim$18.5\%). En anglais, l’espace est toujours le symbole le plus présent et il est $\sim 1.07\times$ plus fréquent que la lettre e. J’en ai conclu que R représente l’espace : 
+
+\texttt{LZ HYZ ZMNVF @YA@ZLSIN  MN ML@ DNEZ LOHSU Y@ VS ZVON@ HJ ENLIN @ZLSCVSU LFOVN@ BVZMHYZ ZMN IHS@NSZ HJ HYF WNUV@WLZYFN@  MN ML@ LJJNIZNC ZH FNSCNF ZMN OVWVZLFT VSCNENSCNSZ HJ LSC @YENFVHF ZH ZMN IVXVW}
+
+\subsubsection*{Étape 2 - Placer la lettre e (N $\rightarrow$ e)}
+Après l’espace, la lettre la plus fréquente du texte est N ($\sim$11.5\%), ce qui colle presque exactement avec la fréquence de e ($\approx$12.7\%). J’ai donc posé N = e : 
+
+\texttt{Lt HYt tMeVF @YA@tLSIe Me ML@ DeEt LOHSU Y@ VS tVOe@ HJ EeLIe @tLSCVSU LFOVe@ BVtMHYt tMe IHS@eSt HJ HYF WeUV@WLtYFe@ Me ML@ LJJeIteC tH FeSCeF tMe OVWVtLFT VSCeEeSCeSt HJ LSC @YEeFVHF tH tMe IVXVW }
+
+\subsubsection*{Étape 3 - Placer la lettre t (Z $\rightarrow$ t)}
+La lettre Z ($\sim$9.5\%) correspond bien à t ($\approx$9.1\%) et apparaît souvent en début de groupes de lettres, ce qui est typique de mots comme \emph{the}, \emph{to}, \emph{that}. J’ai mis Z = t : 
+
+\texttt{Lt HYt tMeVF @YA@tLSIe Me ML@ DeEt LOHSU Y@ VS tVOe@ HJ EeLIe @tLSCVSU LFOVe@ BVtMHYt tMe IHS@eSt HJ HYF WeUV@WLtYFe@ Me ML@ LJJeIteC tH FeSCeF tMe OVWVtLFT VSCeEeSCeSt HJ LSC @YEeFVHF tH tMe IVXVW}
+
+\subsubsection*{Étape 4 - Faire apparaître “the” et “he” (M $\rightarrow$ h, L $\rightarrow$ a)}
+On voyait souvent tMe entre espaces. En mettant M = h, on obtient \emph{the} (trigramme le plus fréquent). De plus, Me devient \emph{he}. Pour préparer \emph{has}, j’ai aussi posé L = a : 
+
+\texttt{at HYt theVF @YA@taSIe he ha@ DeEt aOHSU Y@ VS tVOe@ HJ EeaIe @taSCVSU aFOVe@ BVthHYt the IHS@eSt HJ HYF WeUV@WatYFe@ he ha@ aJJeIteC tH FeSCeF the OVWVtaFT VSCeEeSCeSt HJ aSC @YEeFVHF tH the IVXVW}
+
+\subsubsection*{Étape 5 - “kept” (D $\rightarrow$ k, E $\rightarrow$ p)}
+La séquence DeEt correspond naturellement à \emph{kept} dans l’expression “he has kept …”. J’ai donc posé D = k et E = p : 
+
+\texttt{at HYt theVF @YA@taSIe  he ha@ kept aOHSU Y@ VS tVOe@ HJ peaIe @taSCVSU aFOVe@ BVthHYt the IHS@eSt HJ HYF WeUV@WatYFe@  he ha@ aJJeIteC tH FeSCeF the OVWVtaFT VSCepeSCeSt HJ aSC @YpeFVHF tH the IVXVW}
+
+\subsubsection*{Étape 6 - “has” et “us” (@ $\rightarrow$ s, Y $\rightarrow$ u)}
+On voyait \emph{he ha@} et des blocs Y@. En anglais, \emph{has} et \emph{us} sont très probables. J’ai donc mis @ = s et Y = u : 
+
+\texttt{at Hut theVF suAstaSIe he has kept aOHSU us VS tVOes HJ peaIe staSCVSU aFOVes BVthHut the IHSseSt HJ HuF WeUVsWatuFes he has aJJeIteC tH FeSCeF the OVWVtaFT VSCepeSCeSt HJ aSC supeFVHF tH the IVXVW}
+
+\subsubsection*{Étape 7 - “among us” et “times” (O $\rightarrow$ m, U $\rightarrow$ g)}
+La séquence aOHSU us devient \emph{among us} si O = m et H = o (posé plus bas) avec U = g. En parallèle, tVmes devient \emph{times} avec V = i (posé un peu plus loin) :  
+
+\texttt{at Hut theVF suAstaSIe he has kept amHSg us VS tVmes HJ peaIe staSCVSg aFmVes BVthHut the IHSseSt HJ HuF WegVsWatuFes he has aJJeIteC tH FeSCeF the mVWVtaFT VSCepeSCeSt HJ aSC supeFVHF tH the IVXVW}
+
+\subsubsection*{Étape 8 - “their” et “armies” (V $\rightarrow$ i, F $\rightarrow$ r)}
+Le motif \emph{theVF} devient \emph{their} si V = i et F = r. La même paire donne \emph{armies} ailleurs dans le texte:
+
+\texttt{at Hut their suAstaSIe he has kept amHSg us iS times HJ peaIe staSCiSg armies BithHut the IHSseSt HJ Hur WegisWatures he has aJJeIteC to reSCer the miWitarT iSCepeSCeSt HJ aSC superiHr tH the IiXiW}
+
+\subsubsection*{Étape 9 - Confirmer “among” et amorcer “standing/consent” (H $\rightarrow$ o, S $\rightarrow$ n)}
+Avec H = o et S = n, amHSg devient \emph{among}. Ça oriente aussi \emph{stan…} (pour \emph{standing}) et …\emph{onsent} (pour \emph{consent}), qui se confirment après : 
+
+\texttt{at out their suAstanIe he has kept among us in times oJ peaIe stanCing armies Bithout the Ionsent oJ our WegisWatures he has aJJeIteC to renCer the miWitarT inCepenCent oJ anC superior to the IiXiW}
+
+\subsubsection*{Étape 10 - “of”, “peace”, “consent”, “affected” (J $\rightarrow$ f, I $\rightarrow$ c)}
+Le duo oJ est très probablement \emph{of} $\rightarrow$ J = f. Ensuite peaIe, Ionsent, aJJeIteC deviennent \emph{peace}, \emph{consent}, \emph{affected} avec I = c (et C fixé ensuite) : 
+
+\texttt{at out their suAstance he has kept among us in times of peace stanCing armies Bithout the consent of our WegisWatures he has affecteC to renCer the miWitarT inCepenCent of anC superior to the ciXiW}
+
+\subsubsection*{Étape 11 - “substance”, “standing”, “render”, “independent”, “and” (A $\rightarrow$ b, C $\rightarrow$ d)}
+\texttt{suAstance} devient \emph{substance} si A = b. Les formes \emph{stanCing}, \emph{renCer}, \emph{inCepenCent}, \emph{anC} deviennent \emph{standing}, \emph{render}, \emph{independent}, et \emph{and} avec C = d : 
+
+\texttt{at out their substance he has kept among us in times of peace standing armies Bithout the consent of our WegisWatures he has affected to render the miWitarT independent of and superior to the ciXiW}
+
+\subsubsection*{Étape 12 - “military” et “legislatures” (W $\rightarrow$ l, T $\rightarrow$ y)}
+\texttt{miWitarT} devient \emph{military} si W = l et T = y. Dans le même esprit, \texttt{WegisWatures} devient \emph{legislatures} : 
+
+\texttt{at out their substance he has kept among us in times of peace standing armies Bithout the consent of our legislatures he has affected to render the military independent of and superior to the ciXil}
+
+\subsubsection*{Étape 13 - “without” et “civil” (B $\rightarrow$ w, X $\rightarrow$ v)}
+\texttt{Bithout} devait être \emph{without} $\rightarrow$ B = w. Enfin \texttt{ciXil} devient \emph{civil} avec X = v. On obtient finalement : 
+
+\texttt{at out their substance he has kept among us in times of peace standing armies without the consent of our legislatures he has affected to render the military independent of and superior to the civil}
+\\
+Voici à quoi ressemble la table de substitution finale : 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{./images/nofufu/image29.png}
+\end{figure}
+Le texte déchiffré :  At out their substance he has kept among us in times of peace standing armies without the consent of our legislatures he has affected to render the military independent of and superior to the civil.
+\newpage
+\begin{thebibliography}{9}
+\bibitem{RFC8446} 
+\textbf{Transport Layer Security (TLS) - RFC 8446}. 
+\url{https://datatracker.ietf.org/doc/html/rfc8446} (accès le 30/09/2025).
+
+\bibitem{MDN_HSTS} 
+\textbf{Strict-Transport-Security - MDN Web Docs}. 
+\url{https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security} (accès le 30/09/2025).
+
+\bibitem{RFC6797} 
+\textbf{HTTP Strict Transport Security (HSTS) - RFC 6797}. 
+\url{https://datatracker.ietf.org/doc/html/rfc6797} (accès le 30/09/2025).
+
+\bibitem{MozillaCert} 
+\textbf{What is a secure website certificate? - Mozilla Support}. 
+\url{https://support.mozilla.org/en-US/kb/secure-website-certificate} (accès le 30/09/2025).
+
+\bibitem{NIST80063B} 
+\textbf{NIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle}. 
+\url{https://pages.nist.gov/800-63-4/sp800-63b.html} (accès le 01/10/2025).
+
+\bibitem{OWASPPassword} 
+\textbf{Password Storage Cheat Sheet - OWASP Cheat Sheet Series}. 
+\url{https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html} (accès le 01/10/2025).
+
+
+
+\end{thebibliography}
+
+\end{document}

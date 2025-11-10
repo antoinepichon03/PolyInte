@@ -1,0 +1,637 @@
+\documentclass[a4paper, 12pt, french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}[french]
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{hyperref}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{algorithmicx}
+\usepackage{listingsutf8}
+\usepackage{fancyhdr}
+\usepackage{amsthm}
+\definecolor{lightgray}{rgb}{.93,.94,.95}
+
+\usepackage[T1]{fontenc}
+\usepackage[scaled=0.85]{beramono}
+\usepackage{listings}
+\lstset{frameshape={RYR}{Y}{Y}{RYR},language=SQL,morekeywords={PREFIX,java,rdf,rdfs,url} extendedchars,
+backgroundcolor=\color{lightgray},
+showstringspaces=false, literate=%
+		{'}{{'}}1 %permet l'écriture d'une apostrophe
+		{é}{{\'e}}1
+		{à}{{\`a}}1
+		{ç}{{\c{c}}}1
+		{œ}{{\oe}}1
+		{ù}{{\`u}}1
+		{É}{{\'E}}1
+		{È}{{\`E}}1
+		{À}{{\`A}}1
+		{Ç}{{\c{C}}}1
+		{Œ}{{\OE}}1
+		{Ê}{{\^E}}1
+		{ê}{{\^e}}1
+		{î}{{\^i}}1
+		{ô}{{\^o}}1
+		{è}{{\`e}}1}
+
+
+\usepackage{lineno}
+\usepackage{float}
+\usepackage{color}
+\usepackage{lineno,hyperref}
+\usepackage{ulem}
+\setlength{\parindent}{0mm}
+\usepackage{relsize}
+
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{xparse}% http://ctan.org/pkg/xparse
+\NewDocumentCommand{\myrule}{O{1pt} O{2pt} O{black}}{%
+  \par\nobreak % don't break a page here
+  \kern\the\prevdepth % don't take into account the depth of the preceding line
+  \kern#2 % space before the rule
+  {\color{#3}\hrule height #1 width\hsize} % the rule
+  \kern#2 % space after the rule
+  \nointerlineskip % no additional space after the rule
+}
+\usepackage[section]{placeins}
+
+\usepackage{booktabs}
+\usepackage{colortbl}%
+   \newcommand{\myrowcolour}{\rowcolor[gray]{0.925}}
+   
+%\usepackage[obeyspaces]{url}
+\usepackage{etoolbox}
+%\usepackage[colorlinks,citecolor=black,urlcolor=blue,bookmarks=false,hypertexnames=true]{hyperref} 
+
+
+\usepackage{geometry}
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=3cm, % Inner margin
+	outer=3cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\setlength{\headheight}{17.2pt}
+\pagestyle{fancy}
+\lhead{Machine Learning - Assignment 2}
+\rhead{Automne 2025}
+\renewcommand\footrulewidth{1pt}
+\usepackage{listings}
+\usepackage{color}
+%*******************************************************************************%
+\newcommand{\grando}[1]{O\mathopen{}\left(#1\right)}
+%************************************START**************************************%
+%*******************************************************************************%
+\begin{document}
+
+%*****************************TITLE PAGE*******************************%
+\begin{titlepage}
+\begin{center}
+\textbf{\LARGE \'Ecole Polytechnique de Montr\'eal}\\[0.5cm] 
+\textbf{\large D\'epartement de g\'enie informatique et g\'enie logiciel}\\[0.2cm]
+\vspace{20pt}
+\begin{figure}
+ 	\begin{center}	\includegraphics[width=90mm,scale=1.0]{images/poly.png}
+	\end{center}
+\end{figure}
+
+\par
+\vspace{20pt}
+\vspace{15pt}
+\myrule[1pt][7pt]
+\textbf{\LARGE  Rapport Assignment 2}\\
+\vspace{7pt}
+\textbf{MACHINE LEARNING}\\
+\vspace{6pt}
+\textbf{\large }\\
+\myrule[1pt][7pt]
+
+\vspace{25pt}
+
+{\bfseries Antoine Pichon,} 2489005\\*[8pt]
+
+\vspace{45pt}
+
+\end{center}
+
+\par
+\vfill
+
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{K-Nearest Neighbors (KNN)}
+
+\subsection{Algorithm de KNN naif}
+Voici les echantillons de réponses que nous avons obtenus en faisant varier k et la distance. (A noter que mon ordianteur n'ayant que 16 Go de Ram, les testes sont fait sur des échantillons réduits mais suffisament grands pour être significatifs : le code complet a tout de meme été testé sur une machine à distance pour verrifier que celui ci fonctionnait.) :
+\begin{table}[h]
+\centering
+\caption{Résultats de validation avec la distance euclidienne}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{k} & \textbf{Précision validation (\%)} \\
+\hline
+1 & 91.4 \\
+\hline
+2 & 91.4 \\
+\hline
+3 & 92.8 \\
+\hline
+4 & \textbf{93.0} \\
+\hline
+5 & 93.0 \\
+\hline
+10 & 91.4 \\
+\hline
+20 & 90.2 \\
+\hline
+\end{tabular}
+\label{tab:euclidean_results}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Résultats de validation avec la distance cosine}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{k} & \textbf{Précision validation (\%)} \\
+\hline
+1 & 91.6 \\
+\hline
+2 & 92.2 \\
+\hline
+3 & \textbf{93.8} \\
+\hline
+4 & 93.6 \\
+\hline
+5 & 92.8 \\
+\hline
+10 & 90.6 \\
+\hline
+20 & 91.0 \\
+\hline
+\end{tabular}
+\label{tab:cosine_results}
+\end{table}
+
+Dans le cas des deux tableaux, les meilleurs résultats sont obtenus pour des k 3, 4 ou 5. Cela s'explique car 
+pour k = 1, notre modèle est très sensible au bruit et aux valeurs aberrantes. En augmentant k, nous réduisons cette sensibilité, ce qui améliore la précision jusqu'à un certain point.
+Pour les k trop grands, les voisins éloignées peuvent etre dans les plus proches voisins, mais n'ont pas de rapport avec le point à classer. Ces points peuvent donc brouiller l'analyse. 
+
+\subsection{Algorithme des KNN structuré avec KD-Tree}
+\subsubsection{construction de l'arbre}
+Nous avons implémenté la construction de l'arbre dans la classe KDTree. Faisons une brève analyse de la complexité : \\
+\textbf{Complexité de temporelle :} Le tri des données à chaque niveau nécessite $\mathcal{O}(n \log n)$ et il y a $\mathcal{O}(\log n)$ niveaux, donnant une complexité totale de $\mathcal{O}(n \log^2 n)$. 
+\textbf{Complexité Spatiale : } Chaque nœud de l'arbre nécessite un espace constant, donc l'espace requis est $\mathcal{O}(n)$ pour stocker les nœuds.
+\subsubsection{Classification 1NN}
+Puis, nous avons implémenté la recherche du plus proche voisin en partant de cette structure d'arbre. Voici ce que nous avons comme complexité : \\
+\textbf{Complexité temporelle :} La recherche du plus proche voisin présente une complexité moyenne de l'ordre d'un $\mathcal{O}(\log n)$. Cela est dû au fait que nous ne travaillons qu'avec des arbres binaires équilibrés. 
+\\
+Il est essentiel de stocker la dimension de division car nous ne savons comparer des nombres par une relation d'ordre total que dans $\mathbb{R}$. En cela, nous permettons donc de savoir par quelle dimension du point nous allons comparer et donc de quel coté de l'arbre nous allons continuer la recherche.
+\subsection{Question Bonus}
+Pour obtenir les k plus proches voisins plutôt que le plus proche voisin, nous devons retenir les k points les plus proches plutôt que le point le plus proche.
+
+On pourrait réaliser cela avec une liste triée contenant les k plus proches voisins courants. Dans ce cas, nous n'avons besoin que de comparer le point à l'extrémité qui est la plus éloignée. Si le point que l'on étudie est plus proche que celui-ci, on retire l'ancien point le plus éloigné de la liste, on ajoute le point étudié, puis on retrie la liste de manière intelligente (car elle sera normalement bien triée sauf pour un point).
+
+On pourrait imaginer le pseudocode suivant :
+
+\begin{verbatim}
+function kNN_kdtree(node, query_point, k, voisins):
+    if node == NULL:
+        return voisins
+
+    dist = distance(node.data, query_point)
+
+    if len(voisins) < k:
+        voisins.append((node, dist))
+        voisins.sort()
+    elif dist < voisins[-1].distance:
+        voisins[-1] = (node, dist)
+        // Ici on pourrait optimiser le tri (insertion triée)
+        voisins.sort()
+    
+    if est_feuille(node):
+        return voisins
+    
+    // Choisir la branche selon la dimension de division
+    if query_point[node.dim] < node.data[node.dim]:
+        prio, secc = node.left, node.right
+    else:
+        prio, secc = node.right, node.left
+    
+    voisins = kNN_kdtree(prio, query, k, voisins)
+    
+    // érifier l'autre branche si nécessaire
+    dist_plan = abs(query_point[node.dim] - node.data[node.dim])
+    if len(voisins) < k or dist_plan < voisins[-1].distance:
+        voisins = kNN_kdtree(secc, query, k, voisins)
+    
+    return voisins
+\end{verbatim} 
+
+\section{Theory: a special case of Stone’s theorem }
+\subsection{Question 4}
+\subsubsection{Question 4.a}
+
+Montrons que $R(G) = E[\eta(X)1_{G(X)=0} + (1-\eta(X))1_{G(X)=1}]$.
+\begin{proof}
+On peut premièrement écrire la décomposition suivante d'erreur (car $g\in \{0,1\}$) : 
+$$1_{G(X) \neq g} = 1_{G(X)=0, g=1} + 1_{G(X)=1, g=0}$$
+On a donc en passant le tout à l'espérance (fonction linéaire):
+\begin{align}
+    E[1_{G(X) \neq g}] = R(G) &= E[1_{G(X)=0, g=1}] + E[1_{G(X)=1, g=0}] \\
+    &= P(G(X)=0, g=1) + P(G(X)=1, g=0)
+\end{align}
+
+De plus, on sait que pour toute variable aléatoire $A$ et $B$, on a $E(A) = E(E(A|B))$ (formule de l'espérance totale). D'où, 
+en conditionnant sur $X$, on obtient :
+\begin{align}
+    P(G(X)=0, g=1) &= E[E[1_{G(X)=0, g=1}|X]] \\
+    &= E[1_{G(X)=0} \cdot E[1_{g=1}|X]] \quad \text{(car $G(X)$ ne dépend que de $X$)} \\
+    &= E[1_{G(X)=0} \cdot P(g=1|X)] \\
+    &= E[1_{G(X)=0} \cdot \eta(X)] \quad \text{(par définition de $\eta$)}
+\end{align}
+
+De manière similaire :
+\begin{align}
+    P(G(X)=1, g=0) &= E[1_{G(X)=1} \cdot P(g=0|X)] \\
+    &= E[1_{G(X)=1} \cdot (1-\eta(X))] \quad \text{(car $P(g=0|X) = 1-P(g=1|X)$)}
+\end{align}
+
+On obtient donc finalement :
+\begin{align}
+    R(G) &= E[\eta(X)1_{G(X)=0} + (1-\eta(X))1_{G(X)=1}]
+\end{align}
+\end{proof}
+
+\subsubsection{Question 4.b (Classifieur de Bayes)}
+
+Dans cette question, on nous présente le classifieur de Bayes $G^*$ défini par :
+$$G^*(X) = \begin{cases}
+1 & \text{si } \eta(X) > 1/2 \\
+0 & \text{sinon}
+\end{cases}$$
+Montrons que $R^* = E[\min(\eta(X), 1-\eta(X))]$ et que pour tout classifieur $G$, on a $R(G) - R^* = E[|2\eta(X)-1|1_{G(X) \neq G^*(X)}]$.
+
+\begin{proof}
+    En utilisant le résultat démontré ci-dessus, on a :
+    \begin{align}
+        R(G^*) &= E[\eta(X)1_{G^*(X)=0} + (1-\eta(X))1_{G^*(X)=1}] \\
+        &= E[\eta(X)1_{\eta(X) \leq 1/2} + (1-\eta(X))1_{\eta(X) > 1/2}] 
+    \end{align}
+    Deplus, on a que :
+    \begin{itemize}
+        \item Si $\eta(X) \leq 1/2$, alors $\eta(X) \leq 1-\eta(X)$, donc $\min(\eta(X), 1-\eta(X)) = \eta(X)$
+        \item Si $\eta(X) > 1/2$, alors $\eta(X) > 1-\eta(X)$, donc $\min(\eta(X), 1-\eta(X)) = 1-\eta(X)$
+    \end{itemize}
+
+    d'ou le premier résultat : 
+    \begin{align}
+        R(G^*) &= E[\min(\eta(X), 1-\eta(X))]
+    \end{align}
+\end{proof}
+
+On veut maintenant montrer que $R(G) - R^* = E[|2\eta(X)-1|1_{G(X) \neq G^*(X)}]$.
+\begin{proof}
+    En utilisant le résultat démontré à la question (a), on a :
+    \begin{align}
+        R(G) - R(G^*) &= E[\eta(X)1_{G(X)=0} + (1-\eta(X))1_{G(X)=1}] - E[\eta(X)1_{G^*(X)=0} + (1-\eta(X))1_{G^*(X)=1}] \\
+        &= E[\eta(X)(1_{G(X)=0} - 1_{G^*(X)=0}) + (1-\eta(X))(1_{G(X)=1} - 1_{G^*(X)=1})] \\
+        &= E[(2\eta(X)-1)(1_{G(X)=0} - 1_{G^*(X)=0})] \quad \text{(car $1_{G(X)=1} = 1 - 1_{G(X)=0}$)} \\
+        &= E[|2\eta(X)-1| \cdot \text{sgn}(2\eta(X)-1)(1_{G(X)=0} - 1_{G^*(X)=0})]
+    \end{align}
+    On remarque que $\text{sgn}(2\eta(X)-1)$ est positif si $\eta(X) > 1/2$ et négatif sinon. De plus, $G^*(X)$ est défini de telle sorte que $G^*(X) = 1$ si $\eta(X) > 1/2$ et $G^*(X) = 0$ sinon. Donc, on a :
+    \begin{itemize}
+        \item Si $G(X) = G^*(X)$, alors $(1_{G(X)=0} - 1_{G^*(X)=0}) = 0$
+        \item Si $G(X) \neq G^*(X)$, alors $(1_{G(X)=0} - 1_{G^*(X)=0}) = \pm 1$, et la valeur dépend de si $G^*(X)$ est 0 ou 1.
+    \end{itemize}
+
+    Ainsi, on peut écrire :
+    \begin{align}
+        R(G) - R(G^*) &= E[|2\eta(X)-1| \cdot 1_{G(X) \neq G^*(X)}]
+    \end{align} 
+    D'ou le résultat
+\end{proof}
+Cela nous permet de dire que le classifieur de Bayes minimise le risque de classification, car pour tout classifieur $G$, on a $R(G) - R^* \geq 0$, donc $R(G) \geq R^*$.
+\subsubsection{Question 4.c}
+Montrons que $\forall n \in \mathbb{N} , R(\hat{G}_n) - R^* \leq 2E[|\eta(X) - \eta_n(X)|]$.
+\begin{proof}
+    En utilisant le résultat démontré à la question (b), on a :
+    \begin{align}
+        R(\hat{G}_n) - R^* &= E[|2\eta(X)-1|1_{\hat{G}_n(X) \neq G^*(X)}]
+    \end{align}
+        
+    En partant du postulat que $\hat{G}_n(X) \neq G^*(X)$ faisons une disjonction de cas :
+    
+    \textbf{Premier cas:} $\eta(X) \leq 1/2 < \hat{\eta}_n(X)$
+    \begin{align}
+        |2\eta(X) - 1| &= 1 - 2\eta(X) = 2(1/2 - \eta(X)) \\
+        &\leq 2(\hat{\eta}_n(X) - \eta(X)) = 2|\eta(X) - \hat{\eta}_n(X)|
+    \end{align}
+    
+    \textbf{ Deuxième cas :} $\eta(X) > 1/2 \geq \hat{\eta}_n(X)$
+    \begin{align}
+        |2\eta(X) - 1| &= 2\eta(X) - 1 = 2(\eta(X) - 1/2) \\
+        &\leq 2(\eta(X) - \hat{\eta}_n(X)) = 2|\eta(X) - \hat{\eta}_n(X)|
+    \end{align}
+    
+    On remarque ainsi que dans tout les cas, nous avons le résultat suivant  $|2\eta(X)-1| \leq 2|\eta(X) - \hat{\eta}_n(X)|$ quand $\hat{G}_n(X) \neq G^*(X)$.
+    
+    Ainsi :
+    \begin{align}
+        R(\hat{G}_n) - R^* &= E[|2\eta(X)-1|1_{\hat{G}_n(X) \neq G^*(X)}] \\
+        &\leq E[2|\eta(X) - \hat{\eta}_n(X)|1_{\hat{G}_n(X) \neq G^*(X)}] \\
+        &\leq 2E[|\eta(X) - \hat{\eta}_n(X)|]
+    \end{align}
+\end{proof}
+D'où le résultat
+\subsection{Question 5}
+\subsubsection{Question 5.a}
+Montrons que $E[(\eta(x) - \hat{\eta}_n(x))^2] \leq 2E[(\eta(x) - \tilde{\eta}_n(x))^2] + 2E[(\tilde{\eta}_n(x) - \hat{\eta}_n(x))^2]$.
+\begin{proof}
+    
+Premièrement, on peut écrire la décomposition suivante : 
+\begin{align}
+        \eta(x) - \hat{\eta}_n(x) &= [\eta(x) - \tilde{\eta}_n(x)] + [\tilde{\eta}_n(x) - \hat{\eta}_n(x)]
+\end{align}
+
+Appliquons ensuite l'inégalité de ($(a + b)^2 \leq 2a^2 + 2b^2$):
+\begin{align}
+    [\eta(x) - \hat{\eta}_n(x)]^2 &\leq 2[\eta(x) - \tilde{\eta}_n(x)]^2 + 2[\tilde{\eta}_n(x) - \hat{\eta}_n(x)]^2
+\end{align}
+ En prenant l'espérance des deux côtés :
+\begin{align}
+    E[(\eta(x) - \hat{\eta}_n(x))^2] &\leq 2E[(\eta(x) - \tilde{\eta}_n(x))^2] + 2E[(\tilde{\eta}_n(x) - \hat{\eta}_n(x))^2]
+\end{align}
+\end{proof}
+
+\subsubsection{Question 5.b}
+Supposons maintenant que $k_n \to \infty$ et $k_n/n \to 0$. Et posons $a>0$. 
+$$E\left[\sum_{i=1}^n w_{n,i}(X)1_{\|X_i-X\| \geq a}\right] \to 0$$
+En écrivant $(\eta(x) - \tilde{\eta}_n(X))^2$ comme une somme unique et en utilisant l'inégalité de Jensen, la continuité absolue de $\eta$ et l'hypothèse ci-dessus, on obtient pour un certain $\delta > 0$ :
+$$E[(\eta(x) - \tilde{\eta}_n(X))^2] \leq \epsilon + E\left[\sum_{i=1}^n w_{n,i}(X)1_{\|X_i-X\| \geq \delta}\right]$$
+
+Ainsi, prenons $a = \delta$ : On a alors  $E\left[\sum_{i=1}^n w_{n,i}(X)1_{\|X_i-X\| \geq \delta}\right] \to 0$ quand $n \to \infty$.
+
+Ainsi, puisque l'inégalité est vrai pour tout $\epsilon > 0$. Elle est donc vrai en particulier pour $ \epsilon_n = \frac{1}{n}$
+On a donc n'inégalité suivante vérifiée pour tout $n$ :
+$$E[(\eta(x) - \tilde{\eta}_n(X))^2] \leq \frac{1}{n} + E\left[\sum_{i=1}^n w_{n,i}(X)1_{\|X_i-X\| \geq \delta=a}\right]$$
+
+Cela montre que : $E[(\eta(x) - \tilde{\eta}_n(X))^2] \to 0$ quand $n \to \infty$.
+\subsubsection{Question 5.c}
+Montrons premierement que :
+$$E[(\tilde{\eta}(x) - \hat{\eta}_n(X))^2] = E\left[\sum_{i=1}^n w_{n,i}^2(X)(g_i - \eta(X_i))^2\right]$$
+\begin{proof}
+    Premièrement, on a par définiton : 
+    \begin{align}
+        \tilde{\eta}_n(x) &= \sum_{i=1}^n w_{n,i}(x)\eta(X_i) \\
+        \hat{\eta}_n(x) &= \sum_{i=1}^n w_{n,i}(x)g_i
+    \end{align}
+
+    Donc :
+    \begin{align}
+        \tilde{\eta}_n(x) - \hat{\eta}_n(x) &= \sum_{i=1}^n w_{n,i}(x)\eta(X_i) - \sum_{i=1}^n w_{n,i}(x)g_i \\
+        &= \sum_{i=1}^n w_{n,i}(x)[\eta(X_i) - g_i]
+    \end{align}
+    Il en vient que : 
+    \begin{align}
+        [\tilde{\eta}_n(x) - \hat{\eta}_n(x)]^2 &= \left[\sum_{i=1}^n w_{n,i}(x)[\eta(X_i) - g_i]\right]^2 \\
+        &= \sum_{i=1}^n \sum_{j=1}^n w_{n,i}(x)w_{n,j}(x)[\eta(X_i) - g_i][\eta(X_j) - g_j]
+    \end{align}
+    Soit : 
+    \begin{align}
+        E[(\tilde{\eta}_n(x) - \hat{\eta}_n(x))^2] &= E\left[\sum_{i=1}^n \sum_{j=1}^n w_{n,i}(x)w_{n,j}(x)[\eta(X_i) - g_i][\eta(X_j) - g_j]\right]
+    \end{align}
+
+
+    On a donc en séparant les sommes :
+    \begin{align}
+        &E[(\tilde{\eta}_n(x) - \hat{\eta}_n(x))^2] \\
+        &= E\left[\sum_{i=1}^n w_{n,i}^2(x)(g_i - \eta(X_i))^2\right] + E\left[\sum_{i \neq j} w_{n,i}(x)w_{n,j}(x)(g_i - \eta(X_i))(g_j - \eta(X_j))\right]
+    \end{align}
+    
+    Or, d'après la formule de l'espérance totale on a :
+    \begin{align}
+        &E\left[\sum_{i \neq j} w_{n,i}(x)w_{n,j}(x)(g_i - \eta(X_i))(g_j - \eta(X_j))\right] \\
+        &= E\left[E\left[\sum_{i \neq j} w_{n,i}(x)w_{n,j}(x)(g_i - \eta(X_i))(g_j - \eta(X_j)) \bigg| X_1, \ldots, X_n\right]\right]
+    \end{align}
+    Soit (car les $w_{n,i}(x)$ sont connus une fois les $X_k$ fixés) :    
+    \begin{align}
+        &= E\left[\sum_{i \neq j} w_{n,i}(x)w_{n,j}(x) E\left[(g_i - \eta(X_i))(g_j - \eta(X_j)) \big| X_1, \ldots, X_n\right]\right]
+    \end{align}
+
+
+    Par indépendance conditionnelle (l'indépendance des $g_i$ et $g_j$ est a montrée mais on l'admet ici):
+    \begin{align}
+        E[(g_i - \eta(X_i))(g_j - \eta(X_j)) | X_1, \ldots, X_n] &= E[g_i - \eta(X_i) | X_i] \cdot E[g_j - \eta(X_j) | X_j]
+    \end{align}
+    
+    Or, on a $\forall i$,:
+    \begin{align}
+        E[g_i - \eta(X_i) | X_i] &= E[g_i | X_i] - \eta(X_i) \\
+        &= \eta(X_i) - \eta(X_i) = 0
+    \end{align}
+    
+    Donc :
+    \begin{align}
+        E\left[\sum_{i \neq j} w_{n,i}(x)w_{n,j}(x)(g_i - \eta(X_i))(g_j - \eta(X_j))\right] = 0
+    \end{align}
+    
+    D'où le résultat :
+    \begin{align}
+        E[(\tilde{\eta}_n(x) - \hat{\eta}_n(x))^2] &= E\left[\sum_{i=1}^n w_{n,i}^2(x)(g_i - \eta(X_i))^2\right]
+    \end{align}
+\end{proof}
+Montrons maintenant que $E[(\tilde{\eta}(x) - \hat{\eta}_n(X))^2] \leq E[\max_{1 \leq i \leq n} w_{n,i}(X)]$.
+\begin{proof}
+    On a précédamment montré que :
+    \begin{align}
+        E[(\tilde{\eta}_n(x) - \hat{\eta}_n(x))^2] &= E\left[\sum_{i=1}^n w_{n,i}^2(x)(g_i - \eta(X_i))^2\right]
+    \end{align}
+    
+    On a sachant que $(g_i - \eta(X_i))^2 \leq 1$ (car $g_i \in \{0,1\}$ et $\eta(X_i) \in [0,1]$) :
+    \begin{align}
+        E[(\tilde{\eta}_n(x) - \hat{\eta}_n(x))^2] &\leq E\left[\sum_{i=1}^n w_{n,i}^2(x)\right]
+    \end{align}
+
+    De plus, on remarque que $w_{n,i}^2(x) \leq w_{n,i}(x) \max_{1 \leq j \leq n} w_{n,j}(x)$, donc :
+    \begin{align}
+        \sum_{i=1}^n w_{n,i}^2(x) &\leq \max_{1 \leq j \leq n} w_{n,j}(x) \sum_{i=1}^n w_{n,i}(x) \\
+        &= \max_{1 \leq j \leq n} w_{n,j}(x) \\
+        &\quad \text{(car la définition de $w_{n,i}(x)$ implique que $\sum_{i=1}^n w_{n,i}(x) = 1$)}
+    \end{align}
+\end{proof}
+Dans notre cas, on a $\max_{1 \leq i \leq n} w_{n,i}(X) = 1/k$. 
+
+Par conséquent :
+$$E[(\tilde{\eta}_n(x) - \hat{\eta}_n(X))^2] \leq \frac{1}{k}$$
+
+Puisque par hypothèse $k \to \infty$, on a $\frac{1}{k} \to 0$, donc :
+$$E[(\tilde{\eta}_n(x) - \hat{\eta}_n(X))^2] \to 0 \text{ quand } n \to \infty$$
+
+Ce terme mesure l'erreur causé par le bruit sur les labels, soit la différence en moyenne quadratique entre :
+\begin{itemize}
+    \item L'estimateur oracle $\tilde{\eta}_n$ (qui utilise les vraies probabilités $\eta(X_i)$)
+    \item L'estimateur réel $\hat{\eta}_n$ (qui utilise les labels bruités $g_i$)
+\end{itemize}
+Sa convergence vers 0 signifie que l'effet du bruit diminue quand le nombre de voisins augmente ce qui semble être un résultat plutôt cohérent. 
+
+\subsection{Question Bonus}
+
+\section{Régression Logistique}
+\subsection{Question 1}
+\subsubsection{Question 1.a}
+La preuve est faite de façon manuscrite afin de gagner du temps.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/proof41.jpeg}
+    \caption{Démonstration - Partie 1}
+    \label{fig:demo_partie1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/proof32.jpg}
+    \caption{Démonstration - Partie 2}
+    \label{fig:demo_partie2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/proof2.jpg}
+    \caption{Démonstration - Partie 3}
+    \label{fig:demo_partie3}
+\end{figure}
+\subsubsection{Question 1.e}
+Le paramètre $\lambda$ est concrètement un terme qui sert à la régularisation L2 du modèle de régression logistique.
+Il permet aussi de modifier le gradient en lui ajoutant $ \lambda W$. Etudions sont influence :
+\begin{itemize}
+    \item \textbf{Si $\lambda = 0$ :} Dans ce cas, le gradient est $\frac{\partial L}{\partial W} = \frac{1}{N}X^T(P - Y)$.
+    Il n'y a ici pas de régularisation, ce qui signifie que les poids de W peuvent devenir très grands. 
+    Le modèle risque donc le surapprentissage. (surtout si les données sont bruités)
+
+    \item \textbf{Si $\lambda > 0$ :} Le gradient devient $\frac{\partial L}{\partial W} = \frac{1}{N}X^T(P - Y) + \lambda W$.
+    Le terme $\lambda W$ permet donc de rapprocher le pods vers 0 à chaque itération. Plus il sera grand, plus il sera proche de 0. 
+    On peut donc dire que si $\lambda$ est trop grand, notre modèle risque le sous-apprentissage (les poids seront trop petits)    
+\end{itemize}
+Voici le graphique des résultats obtenus en faisant varier $\lambda$ :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/Figure_1.png}
+    \caption{Précision en fonction de $\lambda$}
+    \label{fig:lambda_accuracy}
+\end{figure}
+On remarque bien le sous apprentissage pour lambda trop grand. Cependant, on ne note pas forcément de sur-apprentissage pour $\lambda = 0$. Cela peut s'expliquer par le fait que les données sont relativement propres et non bruitées.
+
+
+\section{Gaussian Naive Bayes}
+
+\subsection{Question 1}
+\subsubsection{Question 1.a}
+Montrons le resultat suivant : 
+$$\log(P(g=k|X))= \log(P(X|g=k)) + \log(P(g=k)) - C(X)$$
+
+On a premierement par la formule de Bayes :
+\begin{align}
+    P(g=k|X) &= \frac{P(X|g=k)P(g=k)}{P(X)}
+\end{align}
+Ainsi, en passant au log : 
+\begin{align}
+    \log(P(g=k|X)) &= \log(P(X|g=k)) + \log(P(g=k)) - \log(P(X))
+\end{align}
+Or, P(X) ne dépend pas de k, on pose donc $C(X) = \log(P(X))$.
+D'où le résultat :
+\begin{align}
+    \log(P(g=k|X)) &= \log(P(X|g=k)) + \log(P(g=k)) - C(X)
+\end{align}
+Ce que l'on cherche et de connaitre une classe sachant X : $argmax_k P(g=k|X)$. Comme $C(X)$ ne dépend pas de k, on a pas besoin de le calculer.
+Les paramètres a entrainer sont les paramètre qui dépendent de k soit : $P(g=X)$ , $\mu_k$ et $\sigma_k$. 
+
+\subsubsection{Question 1.b}
+On a la preuve suivantes : 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/proof22.jpg}
+    \caption{Démonstration - Partie 1}
+    \label{fig:demo_partie1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/IMG_20251017_111735.jpg}
+    \caption{Démonstration - Partie 2}
+    \label{fig:demo_partie2}
+\end{figure}
+
+Le résultat final est donc pour maximiser la vraissemblance :
+
+$$\mu_k = \frac{1}{N_k} \sum_{i|g_i=k} X_i$$
+
+$$\Sigma_k = \text{diag}\left(\frac{1}{N_k} \sum_{i|g_i=k} (X_{i,1} - \mu_{k,1})^2, \ldots, \frac{1}{N_k} \sum_{i|g_i=k} (X_{i,d} - \mu_{k,d})^2\right)$$
+\subsubsection{Question 1.e}
+
+Après avoir implémenté le classifieur Gaussien naïf (GNB), nous obtenons les précisions suivantes :
+\begin{itemize}
+    \item IRIS : 100{,}00\%
+    \item MNIST : 73{,}69\%
+\end{itemize}
+Pour chaque classe, sur Iris, nous avons les résultats suivants : 
+\begin{table}[htbp]
+\centering
+\caption{Précision par classe (MNIST, GNB)}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Classe} & \textbf{Accuracy (\%)} \\
+\hline
+0 & 77,65 \\
+\hline
+1 & 92,86 \\
+\hline
+2 & 66,57 \\
+\hline
+3 & 45,54 \\
+\hline
+4 & 89,21 \\
+\hline
+5 & 62,89 \\
+\hline
+6 & 88,10 \\
+\hline
+7 & 75,58 \\
+\hline
+8 & 89,12 \\
+\hline
+9 & 47,67 \\
+\hline
+\end{tabular}
+\label{tab:per_class_accuracy_mnist_gnb}
+\end{table}
+\\
+La précision de la classe 1 plus élevée peut etre du a plusieurs choses, premierement, peut etre que cette classe est surreprésentée dans le jeu de données. 
+Deuxièmement, peut etre que les caractéristiques de la classe 1 sont peut etre plus distinctes et mieux séparable par notre modèle. La répartition des données est surement plus simple à comprendre pour cette classe.
+\\
+Concluons quant à l'éfficacité de GNB et KNN sur nos deux jeux de données :
+\begin{itemize}
+    \item \textbf{IRIS} : GNB fonctionne très bien ici car les caractéristiques suivent des lois gaussiennes et sont relativement indépendantes entre elles.
+    \item \textbf{MNIST} : GNB est moins performant parce que les pixels n'ont pas des distributions gaussiennes et sont fortement corrélés les uns aux autres dans l'espace. KNN, en revanche, profite des corrélation spatiale et de la proximité entre les images similaires, ce qui lui permet d'obtenir de meilleurs résultats pour ce jeux de données. 
+\end{itemize}
+
+\section{Source}
+A été utilisé l'IA générative pour les fautes de langues, et pour certains affichage de formule/tableau en LateX.
+\end{document}
