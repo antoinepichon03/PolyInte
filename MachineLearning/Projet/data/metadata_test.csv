@@ -1,0 +1,1093 @@
+,Organism group,ID,Create date,Isolation type,Location,Isolation source,Laboratory typing platform,Testing standard
+0,escherichia_coli,ID_4567605,2019-07-12T08:46:55Z,clinical,"USA: Rochester, NY",urine,,CLSI
+1,escherichia_coli,ID_25789115,2022-10-21T16:40:22Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+2,escherichia_coli,ID_23867575,2022-06-22T18:06:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+3,escherichia_coli,ID_32333335,2024-02-07T12:09:24Z,clinical,USA:Boston,urine,Vitek,CLSI
+4,escherichia_coli,ID_12738935,2016-02-20T10:24:22Z,clinical,USA:Boston,urine,Vitek,CLSI
+5,escherichia_coli,ID_32335395,2024-02-06T22:13:27Z,clinical,USA:Boston,Labial abscess,Vitek,CLSI
+6,escherichia_coli,ID_23868635,2022-06-22T18:15:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+7,escherichia_coli,ID_23857005,2022-06-22T16:38:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+8,escherichia_coli,ID_23869335,2022-06-22T18:22:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+9,escherichia_coli,ID_24166265,2022-07-06T07:11:32Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+10,escherichia_coli,ID_23882925,2022-06-23T00:13:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+11,escherichia_coli,ID_25789375,2022-10-21T16:47:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+12,escherichia_coli,ID_23874835,2022-06-22T23:05:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+13,escherichia_coli,ID_23882665,2022-06-23T00:12:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+14,escherichia_coli,ID_25829175,2022-10-24T23:38:38Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+15,escherichia_coli,ID_25827995,2022-10-24T23:29:13Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+16,escherichia_coli,ID_25786505,2022-10-21T15:45:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+17,escherichia_coli,ID_23876765,2022-06-22T23:21:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+18,escherichia_coli,ID_25786385,2022-10-21T15:42:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+19,escherichia_coli,ID_23876445,2022-06-22T23:18:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+20,escherichia_coli,ID_23861745,2022-06-22T17:11:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+21,escherichia_coli,ID_23879225,2022-06-22T23:41:54Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+22,escherichia_coli,ID_23862945,2022-06-22T17:19:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+23,escherichia_coli,ID_25787365,2022-10-21T16:03:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+24,escherichia_coli,ID_25830075,2022-10-24T23:45:56Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+25,escherichia_coli,ID_23870985,2022-06-22T18:37:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+26,escherichia_coli,ID_23879905,2022-06-22T23:46:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+27,escherichia_coli,ID_25786405,2022-10-21T15:42:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+28,escherichia_coli,ID_23881325,2022-06-23T00:03:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+29,escherichia_coli,ID_3073955,2018-04-30T09:27:07Z,clinical,,,,CLSI
+30,escherichia_coli,ID_4566595,2019-07-12T10:50:43Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+31,escherichia_coli,ID_23879285,2022-06-22T23:42:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+32,escherichia_coli,ID_12586855,2016-09-20T15:19:53Z,clinical,USA:Boston,urine,Vitek,CLSI
+33,escherichia_coli,ID_23859545,2022-06-22T16:56:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+34,escherichia_coli,ID_32338355,2024-02-07T02:09:43Z,clinical,USA:Boston,Abscess,Vitek,CLSI
+35,escherichia_coli,ID_23895785,2022-06-23T03:20:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+36,escherichia_coli,ID_23879575,2022-06-22T23:44:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+37,escherichia_coli,ID_23886445,2022-06-23T00:41:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+38,escherichia_coli,ID_23869625,2022-06-22T18:25:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+39,escherichia_coli,ID_23870225,2022-06-22T18:30:40Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+40,escherichia_coli,ID_25783895,2022-10-21T14:52:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+41,escherichia_coli,ID_23886855,2022-06-23T00:44:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+42,escherichia_coli,ID_23862925,2022-06-22T17:19:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+43,escherichia_coli,ID_23887205,2022-06-23T00:47:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+44,escherichia_coli,ID_24164925,2022-07-06T07:04:14Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+45,escherichia_coli,ID_38080475,2024-04-11T13:50:22Z,clinical,USA:Boston,urine,Vitek,CLSI
+46,escherichia_coli,ID_25833135,2022-10-25T00:06:44Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+47,escherichia_coli,ID_23870565,2022-06-22T18:33:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+48,escherichia_coli,ID_23883905,2022-06-23T00:22:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+49,escherichia_coli,ID_32328795,2024-02-17T02:04:52Z,clinical,USA:Boston,blood,Vitek,CLSI
+50,escherichia_coli,ID_23865515,2022-06-22T17:40:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+51,escherichia_coli,ID_23894465,2022-06-23T03:03:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+52,escherichia_coli,ID_25788105,2022-10-21T16:12:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+53,escherichia_coli,ID_32329895,2024-02-21T14:07:40Z,clinical,USA:Boston,urine,Vitek,CLSI
+54,escherichia_coli,ID_32330935,2024-02-18T03:07:28Z,clinical,USA:Boston,blood,Vitek,CLSI
+55,escherichia_coli,ID_23871045,2022-06-22T18:37:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+56,escherichia_coli,ID_25831765,2022-10-24T23:57:02Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+57,escherichia_coli,ID_15672175,2020-11-24T00:29:08Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+58,escherichia_coli,ID_15674335,2020-11-24T01:03:05Z,environmental/other,Canada: Quebec,manure,Sensititer,CLSI
+59,escherichia_coli,ID_23886885,2022-06-23T00:44:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+60,escherichia_coli,ID_23895575,2022-06-23T03:19:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+61,escherichia_coli,ID_38082335,2024-04-11T13:50:13Z,clinical,USA:Boston,blood,Vitek,CLSI
+62,escherichia_coli,ID_23870525,2022-06-22T18:33:01Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+63,escherichia_coli,ID_32332275,2024-02-05T22:09:53Z,clinical,USA:Boston,urine,Vitek,CLSI
+64,escherichia_coli,ID_23870585,2022-06-22T18:33:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+65,escherichia_coli,ID_23875985,2022-06-22T23:12:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+66,escherichia_coli,ID_23861025,2022-06-22T17:05:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+67,escherichia_coli,ID_25832205,2022-10-24T23:59:56Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+68,escherichia_coli,ID_25788995,2022-10-21T16:36:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+69,escherichia_coli,ID_15671235,2020-11-24T00:12:07Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+70,escherichia_coli,ID_25786955,2022-10-21T15:56:12Z,clinical,USA: District of Columbia,Perirectal,Phoenix,CLSI
+71,escherichia_coli,ID_23877015,2022-06-22T23:23:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+72,escherichia_coli,ID_15672335,2020-11-24T00:31:07Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+73,escherichia_coli,ID_23890525,2022-06-23T01:09:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+74,escherichia_coli,ID_23889845,2022-06-23T01:05:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+75,escherichia_coli,ID_23884805,2022-06-23T00:28:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+76,escherichia_coli,ID_23870365,2022-06-22T18:31:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+77,escherichia_coli,ID_23870345,2022-06-22T18:31:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+78,escherichia_coli,ID_25828355,2022-10-24T23:31:46Z,environmental/other,Netherlands,retail beef,Sensititre,EUCAST
+79,escherichia_coli,ID_23881225,2022-06-23T00:02:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+80,escherichia_coli,ID_23880085,2022-06-22T23:48:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+81,escherichia_coli,ID_23872145,2022-06-22T18:46:54Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+82,escherichia_coli,ID_32333195,2024-02-17T08:16:01Z,clinical,USA:Boston,sputum,Vitek,CLSI
+83,escherichia_coli,ID_23871945,2022-06-22T18:45:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+84,escherichia_coli,ID_23890065,2022-06-23T01:06:57Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+85,escherichia_coli,ID_23880405,2022-06-22T23:49:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+86,escherichia_coli,ID_23870375,2022-06-22T18:31:47Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+87,escherichia_coli,ID_32124735,2024-02-07T14:04:05Z,clinical,USA:Boston,urine,Vitek,CLSI
+88,escherichia_coli,ID_23886025,2022-06-23T00:38:49Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+89,escherichia_coli,ID_23884495,2022-06-23T00:26:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+90,escherichia_coli,ID_23871545,2022-06-22T18:41:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+91,escherichia_coli,ID_23879125,2022-06-22T23:41:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+92,escherichia_coli,ID_23862665,2022-06-22T17:18:00Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+93,escherichia_coli,ID_23876405,2022-06-22T23:18:37Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+94,escherichia_coli,ID_23879885,2022-06-22T23:46:24Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+95,escherichia_coli,ID_12677365,2016-05-31T00:14:19Z,clinical,USA:Boston,blood,Vitek,CLSI
+96,escherichia_coli,ID_25830515,2022-10-24T23:48:11Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+97,escherichia_coli,ID_23868755,2022-06-22T18:17:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+98,escherichia_coli,ID_24165325,2022-07-06T07:05:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+99,escherichia_coli,ID_25785705,2022-10-21T15:25:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+100,escherichia_coli,ID_25827465,2022-10-24T23:24:44Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+101,escherichia_coli,ID_25789015,2022-10-21T19:36:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+102,escherichia_coli,ID_23880625,2022-06-22T23:52:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+103,escherichia_coli,ID_25789575,2022-10-21T16:52:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+104,escherichia_coli,ID_23875465,2022-06-22T23:09:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+105,escherichia_coli,ID_32336395,2024-02-07T00:17:26Z,clinical,USA:Boston,urine,Vitek,CLSI
+106,escherichia_coli,ID_25786005,2022-10-21T15:32:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+107,escherichia_coli,ID_24165925,2022-07-06T07:08:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+108,escherichia_coli,ID_23895595,2022-06-23T03:19:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+109,escherichia_coli,ID_23860925,2022-06-22T17:05:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+110,escherichia_coli,ID_23863065,2022-06-22T17:20:57Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+111,escherichia_coli,ID_23863445,2022-06-22T17:23:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+112,escherichia_coli,ID_23886735,2022-06-23T00:43:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+113,escherichia_coli,ID_23858225,2022-06-22T16:46:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+114,escherichia_coli,ID_23877805,2022-06-22T23:29:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+115,escherichia_coli,ID_25833075,2022-10-25T00:06:28Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+116,escherichia_coli,ID_23865815,2022-06-22T17:47:49Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+117,escherichia_coli,ID_12634085,2016-08-16T10:23:23Z,clinical,USA:Boston,urine,Vitek,CLSI
+118,escherichia_coli,ID_25579545,2022-10-17T15:37:11Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+119,escherichia_coli,ID_23889745,2022-06-23T01:04:40Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+120,escherichia_coli,ID_4566545,2019-07-12T10:50:50Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+121,escherichia_coli,ID_23875625,2022-06-22T23:10:02Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+122,escherichia_coli,ID_23867535,2022-06-22T18:05:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+123,escherichia_coli,ID_25828055,2022-10-24T23:29:37Z,environmental/other,Netherlands,retail veal,Sensititre,EUCAST
+124,escherichia_coli,ID_25783375,2022-10-21T14:39:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+125,escherichia_coli,ID_25829815,2022-10-24T23:43:32Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+126,escherichia_coli,ID_23881345,2022-06-23T00:03:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+127,escherichia_coli,ID_25783215,2022-10-21T14:35:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+128,escherichia_coli,ID_23879865,2022-06-22T23:46:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+129,escherichia_coli,ID_23878855,2022-06-22T23:39:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+130,escherichia_coli,ID_32335475,2024-02-06T22:13:27Z,clinical,USA:Boston,blood,Vitek,CLSI
+131,escherichia_coli,ID_12499725,2017-02-14T12:38:41Z,clinical,USA:Boston,urine,Vitek,CLSI
+132,escherichia_coli,ID_2056145,2017-03-21T12:57:46Z,clinical,,,,CLSI
+133,escherichia_coli,ID_23884005,2022-06-23T00:22:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+134,escherichia_coli,ID_23860885,2022-06-22T17:05:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+135,escherichia_coli,ID_23861805,2022-06-22T17:11:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+136,escherichia_coli,ID_23886105,2022-06-23T00:39:14Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+137,escherichia_coli,ID_23874985,2022-06-22T23:06:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+138,escherichia_coli,ID_15671245,2020-11-24T00:12:13Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+139,escherichia_coli,ID_23895315,2022-06-23T03:17:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+140,escherichia_coli,ID_25787245,2022-10-21T16:02:21Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+141,escherichia_coli,ID_25828975,2022-10-24T23:37:37Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+142,escherichia_coli,ID_23878645,2022-06-22T23:37:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+143,escherichia_coli,ID_25788155,2022-10-21T16:13:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+144,escherichia_coli,ID_23883565,2022-06-23T00:19:41Z,clinical,USA: District of Columbia,Fluid,Phoenix,CLSI
+145,escherichia_coli,ID_32332115,2023-07-27T14:47:40Z,clinical,USA:Boston,urine,Vitek,CLSI
+146,escherichia_coli,ID_23879695,2022-06-22T23:45:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+147,escherichia_coli,ID_23894425,2022-06-23T03:03:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+148,escherichia_coli,ID_23861845,2022-06-22T17:11:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+149,escherichia_coli,ID_23874385,2022-06-22T23:02:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+150,escherichia_coli,ID_692395,2014-05-19T17:25:24Z,clinical,USA: Boston,urine,,
+151,escherichia_coli,ID_23859425,2022-06-22T16:55:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+152,escherichia_coli,ID_4567365,2019-07-12T10:50:40Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+153,escherichia_coli,ID_15674565,2020-11-24T01:06:32Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+154,escherichia_coli,ID_23883625,2022-06-23T00:20:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+155,escherichia_coli,ID_23886405,2022-06-23T00:41:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+156,escherichia_coli,ID_4569925,2019-07-11T18:35:24Z,clinical,"USA: Rochester, NY",urine,,CLSI
+157,escherichia_coli,ID_25830895,2022-10-24T23:50:51Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+158,escherichia_coli,ID_23868675,2022-06-22T18:15:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+159,escherichia_coli,ID_23890805,2022-06-23T01:11:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+160,escherichia_coli,ID_15671515,2020-11-24T00:16:16Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+161,escherichia_coli,ID_23880915,2022-06-22T23:53:07Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+162,escherichia_coli,ID_25788025,2022-10-21T16:10:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+163,escherichia_coli,ID_23875285,2022-06-22T23:08:37Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+164,escherichia_coli,ID_25783535,2022-10-21T14:43:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+165,escherichia_coli,ID_23874565,2022-06-22T23:03:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+166,escherichia_coli,ID_23895555,2022-06-23T03:19:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+167,escherichia_coli,ID_23895715,2022-06-23T03:20:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+168,escherichia_coli,ID_23882955,2022-06-23T00:13:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+169,escherichia_coli,ID_23880885,2022-06-22T23:52:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+170,escherichia_coli,ID_23884625,2022-06-23T00:27:17Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+171,escherichia_coli,ID_23858625,2022-06-22T16:49:24Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+172,escherichia_coli,ID_25579345,2022-10-17T16:53:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+173,escherichia_coli,ID_23868035,2022-06-22T18:10:16Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+174,escherichia_coli,ID_25788355,2022-10-21T16:18:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+175,escherichia_coli,ID_23866305,2022-06-22T17:51:49Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+176,escherichia_coli,ID_23882785,2022-06-23T00:13:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+177,escherichia_coli,ID_3000595,2018-03-14T19:05:09Z,clinical,,,,CLSI
+178,escherichia_coli,ID_23860705,2022-06-22T17:03:40Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+179,escherichia_coli,ID_12432635,2017-08-07T14:40:34Z,clinical,USA:Boston,urine,Vitek,CLSI
+180,escherichia_coli,ID_23879485,2022-06-22T23:43:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+181,escherichia_coli,ID_25833055,2022-10-25T00:06:20Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+182,escherichia_coli,ID_23862125,2022-06-22T17:14:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+183,escherichia_coli,ID_23883065,2022-06-23T00:15:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+184,escherichia_coli,ID_23858245,2022-06-22T16:46:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+185,escherichia_coli,ID_38510405,2024-04-26T14:53:56Z,clinical,USA:Boston,urine,Vitek,CLSI
+186,escherichia_coli,ID_25830835,2022-10-24T23:50:27Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+187,escherichia_coli,ID_32182045,2024-02-07T14:04:06Z,clinical,USA:Boston,urine,Vitek,CLSI
+188,escherichia_coli,ID_23861425,2022-06-22T17:09:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+189,escherichia_coli,ID_25785225,2022-10-21T15:13:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+190,escherichia_coli,ID_23866495,2022-06-22T17:53:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+191,escherichia_coli,ID_31775735,2024-02-07T14:04:02Z,clinical,USA:Boston,urine,Vitek,CLSI
+192,escherichia_coli,ID_23891145,2022-06-23T01:17:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+193,escherichia_coli,ID_25786265,2022-10-21T15:39:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+194,escherichia_coli,ID_23883835,2022-06-23T00:21:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+195,escherichia_coli,ID_23895445,2022-06-23T03:18:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+196,escherichia_coli,ID_32333495,2024-02-16T22:18:39Z,clinical,USA:Boston,Ankle,Vitek,CLSI
+197,escherichia_coli,ID_25787125,2022-10-21T16:00:31Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+198,escherichia_coli,ID_25832165,2022-10-24T23:59:47Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+199,escherichia_coli,ID_23879765,2022-06-22T23:45:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+200,escherichia_coli,ID_12775435,2015-11-10T21:17:47Z,clinical,USA:Boston,blood,Vitek,CLSI
+201,escherichia_coli,ID_23870865,2022-06-22T18:36:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+202,escherichia_coli,ID_25788175,2022-10-21T16:13:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+203,escherichia_coli,ID_25786855,2022-10-21T15:53:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+204,escherichia_coli,ID_23869665,2022-06-22T18:25:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+205,escherichia_coli,ID_23872085,2022-06-22T18:46:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+206,escherichia_coli,ID_23871505,2022-06-22T18:41:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+207,escherichia_coli,ID_25579485,2022-10-17T15:30:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+208,escherichia_coli,ID_23862365,2022-06-22T17:15:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+209,escherichia_coli,ID_24165605,2022-07-06T07:06:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+210,escherichia_coli,ID_23871725,2022-06-22T18:42:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+211,escherichia_coli,ID_24165465,2022-07-06T07:05:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+212,escherichia_coli,ID_25828645,2022-10-24T23:34:03Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+213,escherichia_coli,ID_25786325,2022-10-21T15:40:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+214,escherichia_coli,ID_38081075,2024-04-11T13:50:12Z,clinical,USA:Boston,urine,Vitek,CLSI
+215,escherichia_coli,ID_23887405,2022-06-23T00:48:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+216,escherichia_coli,ID_25785725,2022-10-21T15:25:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+217,escherichia_coli,ID_23861605,2022-06-22T17:10:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+218,escherichia_coli,ID_25786285,2022-10-21T15:39:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+219,escherichia_coli,ID_23890285,2022-06-23T01:08:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+220,escherichia_coli,ID_25827295,2022-10-24T23:23:47Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+221,escherichia_coli,ID_25787165,2022-10-21T16:01:15Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+222,escherichia_coli,ID_24166225,2022-07-06T07:11:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+223,escherichia_coli,ID_23891905,2022-06-23T01:22:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+224,escherichia_coli,ID_23859305,2022-06-22T16:53:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+225,escherichia_coli,ID_23876745,2022-06-22T23:21:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+226,escherichia_coli,ID_23872345,2022-06-22T18:47:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+227,escherichia_coli,ID_25783335,2022-10-21T14:38:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+228,escherichia_coli,ID_24165565,2022-07-06T07:05:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+229,escherichia_coli,ID_12769655,2015-12-12T21:21:17Z,clinical,USA:Boston,sputum,,CLSI
+230,escherichia_coli,ID_24166065,2022-07-06T07:09:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+231,escherichia_coli,ID_23875865,2022-06-22T23:11:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+232,escherichia_coli,ID_4567405,2019-07-12T10:50:38Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+233,escherichia_coli,ID_15673595,2020-11-24T00:51:05Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+234,escherichia_coli,ID_23894875,2022-06-23T03:07:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+235,escherichia_coli,ID_23869965,2022-06-22T18:28:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+236,escherichia_coli,ID_34515725,2023-12-20T06:56:07Z,clinical,USA:Boston,urine,Vitek,CLSI
+237,escherichia_coli,ID_23871845,2022-06-22T18:43:53Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+238,escherichia_coli,ID_12480135,2017-04-14T14:50:30Z,clinical,USA:Boston,gall bladder,Vitek,CLSI
+239,escherichia_coli,ID_23866465,2022-06-22T17:53:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+240,escherichia_coli,ID_23869635,2022-06-22T18:25:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+241,escherichia_coli,ID_23879005,2022-06-22T23:40:05Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+242,escherichia_coli,ID_23865905,2022-06-22T17:48:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+243,escherichia_coli,ID_23889825,2022-06-23T01:04:57Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+244,escherichia_coli,ID_23879635,2022-06-22T23:44:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+245,escherichia_coli,ID_25580365,2022-10-17T15:00:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+246,escherichia_coli,ID_23895275,2022-06-23T03:17:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+247,escherichia_coli,ID_23886625,2022-06-23T00:43:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+248,escherichia_coli,ID_23878205,2022-06-22T23:34:09Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+249,escherichia_coli,ID_32328495,2024-02-21T14:07:42Z,clinical,USA:Boston,urine,Vitek,CLSI
+250,escherichia_coli,ID_32336995,2024-02-06T20:05:19Z,clinical,USA:Boston,Rectal,Vitek,CLSI
+251,escherichia_coli,ID_23877785,2022-06-22T23:28:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+252,escherichia_coli,ID_32329255,2024-02-18T23:57:02Z,clinical,USA:Boston,urine,Vitek,CLSI
+253,escherichia_coli,ID_3073815,2018-04-30T09:09:07Z,clinical,,,,CLSI
+254,escherichia_coli,ID_23886905,2022-06-23T00:44:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+255,escherichia_coli,ID_23892385,2022-06-23T01:26:15Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+256,escherichia_coli,ID_23882065,2022-06-23T00:08:01Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+257,escherichia_coli,ID_23884535,2022-06-23T00:26:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+258,escherichia_coli,ID_23875645,2022-06-22T23:10:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+259,escherichia_coli,ID_25786645,2022-10-21T15:48:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+260,escherichia_coli,ID_25833635,2022-10-25T00:10:38Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+261,escherichia_coli,ID_23879105,2022-06-22T23:40:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+262,escherichia_coli,ID_25783175,2022-10-21T14:34:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+263,escherichia_coli,ID_23890725,2022-06-23T01:11:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+264,escherichia_coli,ID_25784335,2022-10-21T15:03:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+265,escherichia_coli,ID_23863525,2022-06-22T17:24:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+266,escherichia_coli,ID_15671525,2020-11-24T00:16:24Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+267,escherichia_coli,ID_23869785,2022-06-22T18:26:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+268,escherichia_coli,ID_32123075,2024-02-07T00:17:29Z,clinical,USA:Boston,urine,Vitek,CLSI
+269,escherichia_coli,ID_25783055,2022-10-21T14:31:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+270,escherichia_coli,ID_23883345,2022-06-23T00:17:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+271,escherichia_coli,ID_33726735,2023-11-15T17:56:34Z,clinical,USA:Boston,urine,Vitek,CLSI
+272,escherichia_coli,ID_23878705,2022-06-22T23:38:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+273,escherichia_coli,ID_25832855,2022-10-25T00:05:29Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+274,escherichia_coli,ID_24165305,2022-07-06T07:05:15Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+275,escherichia_coli,ID_23859005,2022-06-22T16:51:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+276,escherichia_coli,ID_25828515,2022-10-24T23:33:07Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+277,escherichia_coli,ID_25830285,2022-10-24T23:46:45Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+278,escherichia_coli,ID_24164885,2022-07-06T07:04:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+279,escherichia_coli,ID_23886485,2022-06-23T00:42:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+280,escherichia_coli,ID_23881745,2022-06-23T00:06:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+281,escherichia_coli,ID_23867355,2022-06-22T18:04:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+282,escherichia_coli,ID_23860165,2022-06-22T17:00:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+283,escherichia_coli,ID_23875685,2022-06-22T23:10:11Z,clinical,USA: District of Columbia,Tissue,Phoenix,CLSI
+284,escherichia_coli,ID_23879355,2022-06-22T23:42:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+285,escherichia_coli,ID_23868875,2022-06-22T18:18:48Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+286,escherichia_coli,ID_23860765,2022-06-22T17:04:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+287,escherichia_coli,ID_25580965,2022-10-17T15:00:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+288,escherichia_coli,ID_25579185,2022-10-17T17:10:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+289,escherichia_coli,ID_25783555,2022-10-21T14:44:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+290,escherichia_coli,ID_3571785,2018-09-17T09:51:09Z,clinical,,,,CLSI
+291,escherichia_coli,ID_25827395,2022-10-24T23:24:20Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+292,escherichia_coli,ID_23870405,2022-06-22T18:32:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+293,escherichia_coli,ID_23892525,2022-06-23T01:27:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+294,escherichia_coli,ID_23857585,2022-06-22T16:42:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+295,escherichia_coli,ID_23866075,2022-06-22T17:49:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+296,escherichia_coli,ID_692555,2014-05-19T17:30:57Z,clinical,USA: Boston,urine,,
+297,escherichia_coli,ID_23882525,2022-06-23T00:11:05Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+298,escherichia_coli,ID_25832575,2022-10-25T00:02:51Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+299,escherichia_coli,ID_25580785,2022-10-17T16:48:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+300,escherichia_coli,ID_23862105,2022-06-22T17:14:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+301,escherichia_coli,ID_24165725,2022-07-06T07:07:32Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+302,escherichia_coli,ID_4566405,2019-07-12T10:50:49Z,clinical,"USA: Rochester, NY",urine,,CLSI
+303,escherichia_coli,ID_23860065,2022-06-22T16:59:32Z,clinical,USA: District of Columbia,Tissue,Phoenix,CLSI
+304,escherichia_coli,ID_23863665,2022-06-22T17:24:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+305,escherichia_coli,ID_23891945,2022-06-23T01:23:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+306,escherichia_coli,ID_32338595,2024-02-17T06:12:36Z,clinical,USA:Boston,Foot wound,Vitek,CLSI
+307,escherichia_coli,ID_23861965,2022-06-22T17:12:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+308,escherichia_coli,ID_25828195,2022-10-24T23:30:24Z,environmental/other,Netherlands,retail pork,Sensititre,EUCAST
+309,escherichia_coli,ID_25789215,2022-10-21T16:43:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+310,escherichia_coli,ID_25579985,2022-10-17T15:18:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+311,escherichia_coli,ID_25789695,2022-10-21T16:55:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+312,escherichia_coli,ID_23872685,2022-06-22T18:50:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+313,escherichia_coli,ID_23891525,2022-06-23T01:19:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+314,escherichia_coli,ID_32336315,2024-02-05T01:03:28Z,clinical,USA:Boston,urine,Vitek,CLSI
+315,escherichia_coli,ID_38080435,2024-04-11T13:50:23Z,clinical,USA:Boston,urine,Vitek,CLSI
+316,escherichia_coli,ID_25788045,2022-10-21T16:10:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+317,escherichia_coli,ID_23878365,2022-06-22T23:35:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+318,escherichia_coli,ID_25580845,2022-10-17T15:31:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+319,escherichia_coli,ID_4567345,2019-04-03T01:01:50Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+320,escherichia_coli,ID_25786705,2022-10-21T15:50:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+321,escherichia_coli,ID_23885845,2022-06-23T00:38:07Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+322,escherichia_coli,ID_23858345,2022-06-22T16:47:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+323,escherichia_coli,ID_4566535,2019-07-12T10:50:46Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+324,escherichia_coli,ID_23863465,2022-06-22T17:23:39Z,clinical,USA: District of Columbia,other,Phoenix,CLSI
+325,escherichia_coli,ID_23881125,2022-06-23T00:02:00Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+326,escherichia_coli,ID_12437535,2017-07-24T16:39:15Z,clinical,USA:Boston,urine,Vitek,CLSI
+327,escherichia_coli,ID_32334015,2024-02-17T18:06:28Z,clinical,USA:Boston,Breast biopsy,Vitek,CLSI
+328,escherichia_coli,ID_25832865,2022-10-25T00:05:35Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+329,escherichia_coli,ID_32330215,2024-02-18T03:07:29Z,clinical,USA:Boston,urine,Vitek,CLSI
+330,escherichia_coli,ID_23861925,2022-06-22T17:12:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+331,escherichia_coli,ID_23863965,2022-06-22T17:27:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+332,escherichia_coli,ID_38513765,2024-04-26T14:53:48Z,clinical,USA:Boston,urine,Vitek,CLSI
+333,escherichia_coli,ID_4566835,2019-07-12T10:50:51Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+334,escherichia_coli,ID_23882615,2022-06-23T00:12:19Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+335,escherichia_coli,ID_15671755,2020-11-24T00:19:07Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+336,escherichia_coli,ID_23860025,2022-06-22T16:59:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+337,escherichia_coli,ID_4568615,2019-07-12T10:50:35Z,clinical,"USA: Rochester, NY",infection secondary to perforated appendicitis,,CLSI
+338,escherichia_coli,ID_20368835,2016-12-20T12:28:30Z,clinical,USA:Boston,abdominal,Vitek,CLSI
+339,escherichia_coli,ID_25785905,2022-10-21T15:30:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+340,escherichia_coli,ID_25786485,2022-10-21T15:45:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+341,escherichia_coli,ID_38081335,2024-04-11T13:50:13Z,clinical,USA:Boston,urine,Vitek,CLSI
+342,escherichia_coli,ID_23866335,2022-06-22T17:51:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+343,escherichia_coli,ID_12586495,2016-09-20T15:19:53Z,clinical,USA:Boston,urine,Vitek,CLSI
+344,escherichia_coli,ID_25831255,2022-10-24T23:53:31Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+345,escherichia_coli,ID_25831635,2022-10-24T23:56:28Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+346,escherichia_coli,ID_32331675,2024-02-06T20:05:20Z,clinical,USA:Boston,urine,Vitek,CLSI
+347,escherichia_coli,ID_23876675,2022-06-22T23:20:56Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+348,escherichia_coli,ID_24166205,2022-07-06T07:11:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+349,escherichia_coli,ID_2180195,2017-06-08T13:53:08Z,clinical,,,,CLSI
+350,escherichia_coli,ID_23876565,2022-06-22T23:20:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+351,escherichia_coli,ID_23870545,2022-06-22T18:33:14Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+352,escherichia_coli,ID_32330775,2024-02-17T02:04:51Z,clinical,USA:Boston,urine,Vitek,CLSI
+353,escherichia_coli,ID_23895235,2022-06-23T03:17:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+354,escherichia_coli,ID_25827335,2022-10-24T23:24:11Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+355,escherichia_coli,ID_4567675,2019-07-12T08:46:57Z,clinical,"USA: Rochester, NY",urine,,CLSI
+356,escherichia_coli,ID_23858545,2022-06-22T16:49:05Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+357,escherichia_coli,ID_38080975,2024-04-11T13:50:14Z,clinical,USA:Boston,urine,Vitek,CLSI
+358,escherichia_coli,ID_23871965,2022-06-22T18:45:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+359,escherichia_coli,ID_23881815,2022-06-23T00:07:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+360,escherichia_coli,ID_25832035,2022-10-24T23:59:23Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+361,escherichia_coli,ID_25788195,2022-10-21T16:14:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+362,escherichia_coli,ID_23857065,2022-06-22T16:38:48Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+363,escherichia_coli,ID_23865935,2022-06-22T17:48:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+364,escherichia_coli,ID_25789295,2022-10-21T16:45:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+365,escherichia_coli,ID_23876805,2022-06-22T23:21:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+366,escherichia_coli,ID_23865455,2022-06-22T17:40:02Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+367,escherichia_coli,ID_23865535,2022-06-22T17:41:09Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+368,escherichia_coli,ID_25788715,2022-10-21T16:28:32Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+369,escherichia_coli,ID_25832475,2022-10-25T00:02:26Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+370,escherichia_coli,ID_20363865,2017-08-07T14:40:34Z,clinical,USA:Boston,urine,Vitek,CLSI
+371,escherichia_coli,ID_23871125,2022-06-22T18:37:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+372,escherichia_coli,ID_23894725,2022-06-23T03:05:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+373,escherichia_coli,ID_25827635,2022-10-24T23:26:22Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+374,escherichia_coli,ID_23866045,2022-06-22T17:49:17Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+375,escherichia_coli,ID_23875025,2022-06-22T23:06:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+376,escherichia_coli,ID_23883525,2022-06-23T00:19:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+377,escherichia_coli,ID_23878445,2022-06-22T23:36:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+378,escherichia_coli,ID_25788085,2022-10-21T16:11:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+379,escherichia_coli,ID_48689035,2025-02-28T18:54:37Z,environmental/other,Brazil: Curitiba,Hospital effluent,,EUCAST
+380,escherichia_coli,ID_23879065,2022-06-22T23:40:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+381,escherichia_coli,ID_25782915,2022-10-21T14:28:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+382,escherichia_coli,ID_32328135,2024-02-17T12:10:18Z,clinical,USA:Boston,urine,Vitek,CLSI
+383,escherichia_coli,ID_23881245,2022-06-23T00:02:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+384,escherichia_coli,ID_23890585,2022-06-23T01:10:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+385,escherichia_coli,ID_23885735,2022-06-23T00:37:17Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+386,escherichia_coli,ID_23889945,2022-06-23T01:06:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+387,escherichia_coli,ID_23868795,2022-06-22T18:17:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+388,escherichia_coli,ID_12437555,2017-07-24T16:39:16Z,clinical,USA:Boston,urine,Vitek,CLSI
+389,escherichia_coli,ID_23877765,2022-06-22T23:28:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+390,escherichia_coli,ID_33726615,2023-11-15T17:56:36Z,clinical,USA:Boston,urine,Vitek,CLSI
+391,escherichia_coli,ID_23883865,2022-06-23T00:21:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+392,escherichia_coli,ID_24165525,2022-07-06T07:05:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+393,escherichia_coli,ID_25789255,2022-10-21T16:44:12Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+394,escherichia_coli,ID_23878985,2022-06-22T23:39:54Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+395,escherichia_coli,ID_23887525,2022-06-23T00:49:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+396,escherichia_coli,ID_23894675,2022-06-23T03:05:31Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+397,escherichia_coli,ID_23880495,2022-06-22T23:51:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+398,escherichia_coli,ID_23869805,2022-06-22T18:26:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+399,escherichia_coli,ID_25787815,2022-10-21T16:07:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+400,escherichia_coli,ID_25580245,2022-10-17T16:51:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+401,escherichia_coli,ID_23879385,2022-06-22T23:42:34Z,clinical,USA: District of Columbia,Fluid,Phoenix,CLSI
+402,escherichia_coli,ID_23878805,2022-06-22T23:39:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+403,escherichia_coli,ID_23878605,2022-06-22T23:36:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+404,escherichia_coli,ID_23882275,2022-06-23T00:10:00Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+405,escherichia_coli,ID_24166305,2022-07-06T07:11:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+406,escherichia_coli,ID_692595,2014-05-19T17:32:28Z,clinical,USA: Boston,urine,,
+407,escherichia_coli,ID_23890395,2022-06-23T01:09:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+408,escherichia_coli,ID_15674175,2020-11-24T01:00:27Z,environmental/other,Canada: Quebec,manure,Sensititer,CLSI
+409,escherichia_coli,ID_32329415,2024-02-07T00:17:27Z,clinical,USA:Boston,urine,Vitek,CLSI
+410,escherichia_coli,ID_32330715,2024-02-16T22:18:40Z,clinical,USA:Boston,urine,Vitek,CLSI
+411,escherichia_coli,ID_23883385,2022-06-23T00:17:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+412,escherichia_coli,ID_32332255,2024-02-21T14:07:39Z,clinical,USA:Boston,urine,Vitek,CLSI
+413,escherichia_coli,ID_25789515,2022-10-21T16:50:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+414,escherichia_coli,ID_23895415,2022-06-23T03:17:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+415,escherichia_coli,ID_25832715,2022-10-25T00:04:43Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+416,escherichia_coli,ID_12479735,2017-04-14T13:24:50Z,clinical,USA:Boston,urine,Vitek,CLSI
+417,escherichia_coli,ID_25785665,2022-10-21T15:24:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+418,escherichia_coli,ID_23885725,2022-06-23T00:37:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+419,escherichia_coli,ID_25580585,2022-10-17T14:53:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+420,escherichia_coli,ID_32333255,2024-02-05T04:52:35Z,clinical,USA:Boston,urine,Vitek,CLSI
+421,escherichia_coli,ID_23879805,2022-06-22T23:46:07Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+422,escherichia_coli,ID_25784095,2022-10-21T14:57:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+423,escherichia_coli,ID_23863905,2022-06-22T17:26:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+424,escherichia_coli,ID_23879665,2022-06-22T23:44:24Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+425,escherichia_coli,ID_36669155,2024-02-15T20:09:47Z,clinical,USA:Boston,Wound drainage,Vitek,CLSI
+426,escherichia_coli,ID_15674615,2020-11-24T01:07:18Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+427,escherichia_coli,ID_25830635,2022-10-24T23:49:03Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+428,escherichia_coli,ID_4569745,2019-07-11T18:35:24Z,clinical,"USA: Rochester, NY",urine,,CLSI
+429,escherichia_coli,ID_25831875,2022-10-24T23:58:34Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+430,escherichia_coli,ID_23891565,2022-06-23T01:19:48Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+431,escherichia_coli,ID_23860505,2022-06-22T17:02:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+432,escherichia_coli,ID_25580705,2022-10-17T15:37:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+433,escherichia_coli,ID_25783395,2022-10-21T14:40:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+434,escherichia_coli,ID_23877825,2022-06-22T23:32:09Z,clinical,USA: District of Columbia,Fluid,Phoenix,CLSI
+435,escherichia_coli,ID_23881475,2022-06-23T00:04:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+436,escherichia_coli,ID_25789895,2022-10-21T17:00:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+437,escherichia_coli,ID_25787865,2022-10-21T16:08:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+438,escherichia_coli,ID_25829935,2022-10-24T23:44:02Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+439,escherichia_coli,ID_23884745,2022-06-23T00:28:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+440,escherichia_coli,ID_23866855,2022-06-22T17:56:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+441,escherichia_coli,ID_4567595,2019-07-12T08:46:57Z,clinical,"USA: Rochester, NY",urine,,CLSI
+442,escherichia_coli,ID_4566385,2019-07-12T10:50:44Z,clinical,"USA: Rochester, NY",urine,,CLSI
+443,escherichia_coli,ID_23885365,2022-06-23T00:34:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+444,escherichia_coli,ID_25579965,2022-10-17T15:28:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+445,escherichia_coli,ID_25785885,2022-10-21T15:29:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+446,escherichia_coli,ID_48589645,2025-03-17T00:14:25Z,clinical,Nigeria,,Vitek,CLSI
+447,escherichia_coli,ID_23871605,2022-06-22T18:41:37Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+448,escherichia_coli,ID_23878925,2022-06-22T23:39:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+449,escherichia_coli,ID_25579745,2022-10-17T14:31:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+450,escherichia_coli,ID_23881185,2022-06-23T00:02:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+451,escherichia_coli,ID_23859345,2022-06-22T16:53:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+452,escherichia_coli,ID_4567695,2019-07-12T08:46:56Z,clinical,"USA: Rochester, NY",urine,,CLSI
+453,escherichia_coli,ID_25833675,2022-10-25T00:10:51Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+454,escherichia_coli,ID_24165365,2022-07-06T07:05:23Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+455,escherichia_coli,ID_23878665,2022-06-22T23:38:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+456,escherichia_coli,ID_23870505,2022-06-22T18:32:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+457,escherichia_coli,ID_25788735,2022-10-21T16:29:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+458,escherichia_coli,ID_23876885,2022-06-22T23:21:47Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+459,escherichia_coli,ID_25785285,2022-10-21T15:14:21Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+460,escherichia_coli,ID_23866155,2022-06-22T17:49:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+461,escherichia_coli,ID_15672035,2020-11-24T00:23:26Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+462,escherichia_coli,ID_12924565,2020-04-20T16:16:44Z,clinical,USA:Cincinnati,urine,,CLSI
+463,escherichia_coli,ID_23867775,2022-06-22T18:08:02Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+464,escherichia_coli,ID_27891135,2023-01-18T05:35:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+465,escherichia_coli,ID_23870665,2022-06-22T18:34:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+466,escherichia_coli,ID_23863385,2022-06-22T17:22:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+467,escherichia_coli,ID_23860625,2022-06-22T17:03:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+468,escherichia_coli,ID_23894375,2022-06-23T03:02:54Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+469,escherichia_coli,ID_15672185,2020-11-24T00:29:20Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+470,escherichia_coli,ID_23894545,2022-06-23T03:04:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+471,escherichia_coli,ID_23884265,2022-06-23T00:25:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+472,escherichia_coli,ID_23859905,2022-06-22T16:58:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+473,escherichia_coli,ID_25783195,2022-10-21T14:35:14Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+474,escherichia_coli,ID_23858725,2022-06-22T16:49:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+475,escherichia_coli,ID_23879585,2022-06-22T23:44:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+476,escherichia_coli,ID_23874625,2022-06-22T23:03:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+477,escherichia_coli,ID_32300135,2023-10-03T10:50:59Z,environmental/other,USA:OH,Pig ear pet treat,Vitek,CLSI
+478,escherichia_coli,ID_23857405,2022-06-22T16:41:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+479,escherichia_coli,ID_19903935,2021-09-08T11:32:24Z,clinical,USA: Minnesota,blood culture,,CLSI
+480,escherichia_coli,ID_23862205,2022-06-22T17:14:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+481,escherichia_coli,ID_23882235,2022-06-23T00:09:35Z,clinical,USA: District of Columbia,Perirectal,Phoenix,CLSI
+482,escherichia_coli,ID_32338155,2024-02-07T12:09:22Z,clinical,USA:Boston,urine,Vitek,CLSI
+483,escherichia_coli,ID_32331615,2024-02-06T20:05:20Z,clinical,USA:Boston,urine,Vitek,CLSI
+484,escherichia_coli,ID_23894445,2022-06-23T03:03:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+485,escherichia_coli,ID_25785925,2022-10-21T15:30:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+486,escherichia_coli,ID_23862965,2022-06-22T17:20:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+487,escherichia_coli,ID_32331075,2024-02-20T22:17:25Z,clinical,USA:Boston,urine,Vitek,CLSI
+488,escherichia_coli,ID_23872405,2022-06-22T18:49:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+489,escherichia_coli,ID_23883045,2022-06-23T00:15:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+490,escherichia_coli,ID_25579225,2022-10-17T17:11:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+491,escherichia_coli,ID_4567045,2019-07-12T10:50:42Z,clinical,"USA: Rochester, NY",urine,,CLSI
+492,escherichia_coli,ID_25788915,2022-10-21T16:34:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+493,escherichia_coli,ID_25788455,2022-10-21T16:21:04Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+494,escherichia_coli,ID_2180055,2017-06-08T13:51:05Z,clinical,,,,CLSI
+495,escherichia_coli,ID_23867075,2022-06-22T18:02:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+496,escherichia_coli,ID_23876965,2022-06-22T23:23:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+497,escherichia_coli,ID_25830555,2022-10-24T23:48:24Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+498,escherichia_coli,ID_25833755,2022-10-25T00:11:15Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+499,escherichia_coli,ID_23865335,2022-06-22T17:39:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+500,escherichia_coli,ID_32122055,2024-02-16T16:25:55Z,clinical,USA:Boston,urine,Vitek,CLSI
+501,escherichia_coli,ID_32331255,2024-02-07T14:04:01Z,clinical,USA:Boston,urine,Vitek,CLSI
+502,escherichia_coli,ID_15673505,2020-11-24T00:50:16Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+503,escherichia_coli,ID_4569875,2019-07-12T10:50:34Z,clinical,"USA: Rochester, NY",joint infection,,CLSI
+504,escherichia_coli,ID_25788975,2022-10-21T16:35:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+505,escherichia_coli,ID_23886345,2022-06-23T00:41:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+506,escherichia_coli,ID_15672065,2020-11-24T00:25:07Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+507,escherichia_coli,ID_32331835,2024-02-06T06:03:33Z,clinical,USA:Boston,blood,Vitek,CLSI
+508,escherichia_coli,ID_25833705,2022-10-25T00:11:07Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+509,escherichia_coli,ID_25785445,2022-10-21T15:18:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+510,escherichia_coli,ID_23868395,2022-06-22T18:13:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+511,escherichia_coli,ID_25786165,2022-10-21T15:36:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+512,escherichia_coli,ID_25831515,2022-10-24T23:55:53Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+513,escherichia_coli,ID_25828025,2022-10-24T23:29:21Z,environmental/other,Netherlands,retail pork,Sensititre,EUCAST
+514,escherichia_coli,ID_25788835,2022-10-21T16:32:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+515,escherichia_coli,ID_26421025,2022-11-27T23:15:16Z,clinical,Greece,urine,Vitek,EUCAST
+516,escherichia_coli,ID_23857385,2022-06-22T16:41:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+517,escherichia_coli,ID_23880055,2022-06-22T23:48:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+518,escherichia_coli,ID_23870305,2022-06-22T18:31:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+519,escherichia_coli,ID_32330915,2024-02-05T10:05:33Z,clinical,USA:Boston,urine,Vitek,CLSI
+520,escherichia_coli,ID_25788335,2022-10-21T16:18:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+521,escherichia_coli,ID_15671795,2020-11-24T00:20:10Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+522,escherichia_coli,ID_23886125,2022-06-23T00:39:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+523,escherichia_coli,ID_23892235,2022-06-23T01:25:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+524,escherichia_coli,ID_32331215,2024-02-16T16:25:51Z,clinical,USA:Boston,urine,Vitek,CLSI
+525,escherichia_coli,ID_23860685,2022-06-22T17:03:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+526,escherichia_coli,ID_23884785,2022-06-23T00:28:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+527,escherichia_coli,ID_23871485,2022-06-22T18:41:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+528,escherichia_coli,ID_23890445,2022-06-23T01:09:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+529,escherichia_coli,ID_32330815,2024-02-05T04:52:35Z,clinical,USA:Boston,urine,Vitek,CLSI
+530,escherichia_coli,ID_23891655,2022-06-23T01:20:41Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+531,escherichia_coli,ID_23891685,2022-06-23T01:20:58Z,clinical,USA: District of Columbia,Fluid,Phoenix,CLSI
+532,escherichia_coli,ID_12902095,2016-10-01T15:22:24Z,clinical,USA:Boston,sputum,Vitek,CLSI
+533,escherichia_coli,ID_23890125,2022-06-23T01:07:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+534,escherichia_coli,ID_30128985,2023-05-30T17:02:32Z,clinical,Portugal: Lisbon,urine,Microscan,EUCAST
+535,escherichia_coli,ID_25830215,2022-10-24T23:46:28Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+536,escherichia_coli,ID_25783115,2022-10-21T14:32:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+537,escherichia_coli,ID_23874875,2022-06-22T23:05:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+538,escherichia_coli,ID_4566395,2019-07-12T10:50:47Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+539,escherichia_coli,ID_25832775,2022-10-25T00:05:09Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+540,escherichia_coli,ID_23889995,2022-06-23T01:06:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+541,escherichia_coli,ID_23894985,2022-06-23T03:07:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+542,escherichia_coli,ID_25784195,2022-10-21T14:59:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+543,escherichia_coli,ID_24165645,2022-07-06T07:06:16Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+544,escherichia_coli,ID_25786815,2022-10-21T15:53:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+545,escherichia_coli,ID_23880965,2022-06-22T23:54:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+546,escherichia_coli,ID_23871185,2022-06-22T18:38:26Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+547,escherichia_coli,ID_25785845,2022-10-21T15:28:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+548,escherichia_coli,ID_32334075,2024-02-16T16:25:50Z,clinical,USA:Boston,urine,Vitek,CLSI
+549,escherichia_coli,ID_12765915,2016-01-02T12:22:35Z,clinical,USA:Boston,urine,Vitek,CLSI
+550,escherichia_coli,ID_23890495,2022-06-23T01:09:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+551,escherichia_coli,ID_25829915,2022-10-24T23:43:54Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+552,escherichia_coli,ID_4567055,2019-07-12T10:50:39Z,clinical,"USA: Rochester, NY",urine,,CLSI
+553,escherichia_coli,ID_25831095,2022-10-24T23:52:51Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+554,escherichia_coli,ID_23894585,2022-06-23T03:04:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+555,escherichia_coli,ID_23890345,2022-06-23T01:09:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+556,escherichia_coli,ID_25833535,2022-10-25T00:10:17Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+557,escherichia_coli,ID_25833395,2022-10-25T00:09:28Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+558,escherichia_coli,ID_23857165,2022-06-22T16:39:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+559,escherichia_coli,ID_23882835,2022-06-23T00:13:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+560,escherichia_coli,ID_25828315,2022-10-24T23:31:28Z,environmental/other,Netherlands,retail pork,Sensititre,EUCAST
+561,escherichia_coli,ID_4566865,2019-07-12T10:50:46Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+562,escherichia_coli,ID_25832185,2022-10-25T00:00:01Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+563,escherichia_coli,ID_23857645,2022-06-22T16:42:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+564,escherichia_coli,ID_23882865,2022-06-23T00:13:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+565,escherichia_coli,ID_23880335,2022-06-22T23:49:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+566,escherichia_coli,ID_23866995,2022-06-22T17:57:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+567,escherichia_coli,ID_12479695,2017-04-14T13:24:49Z,clinical,USA:Boston,urine,Vitek,CLSI
+568,escherichia_coli,ID_23878305,2022-06-22T23:35:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+569,escherichia_coli,ID_25788415,2022-10-21T16:20:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+570,escherichia_coli,ID_23856865,2022-06-22T16:37:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+571,escherichia_coli,ID_23895815,2022-06-23T03:20:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+572,escherichia_coli,ID_23881625,2022-06-23T00:04:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+573,escherichia_coli,ID_23886565,2022-06-23T00:42:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+574,escherichia_coli,ID_23887035,2022-06-23T00:46:41Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+575,escherichia_coli,ID_25831355,2022-10-24T23:54:03Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+576,escherichia_coli,ID_25579305,2022-10-17T15:55:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+577,escherichia_coli,ID_23878065,2022-06-22T23:33:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+578,escherichia_coli,ID_25786305,2022-10-21T15:40:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+579,escherichia_coli,ID_23866455,2022-06-22T17:53:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+580,escherichia_coli,ID_32331135,2023-07-27T14:47:55Z,clinical,USA:Boston,urine,Vitek,CLSI
+581,escherichia_coli,ID_25786145,2022-10-21T15:36:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+582,escherichia_coli,ID_25827715,2022-10-24T23:26:56Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+583,escherichia_coli,ID_32329835,2024-02-06T06:03:33Z,clinical,USA:Boston,urine,Vitek,CLSI
+584,escherichia_coli,ID_23886765,2022-06-23T00:44:00Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+585,escherichia_coli,ID_23885585,2022-06-23T00:35:49Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+586,escherichia_coli,ID_23890465,2022-06-23T01:09:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+587,escherichia_coli,ID_23862875,2022-06-22T17:18:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+588,escherichia_coli,ID_23887445,2022-06-23T00:49:07Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+589,escherichia_coli,ID_4566795,2019-07-12T10:50:43Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+590,escherichia_coli,ID_23857965,2022-06-22T16:45:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+591,escherichia_coli,ID_24164945,2022-07-06T07:04:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+592,escherichia_coli,ID_23874725,2022-06-22T23:03:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+593,escherichia_coli,ID_23857485,2022-06-22T16:41:40Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+594,escherichia_coli,ID_23884665,2022-06-23T00:27:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+595,escherichia_coli,ID_23861005,2022-06-22T17:05:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+596,escherichia_coli,ID_32120495,2024-02-18T10:17:45Z,clinical,USA:Boston,urine,Vitek,CLSI
+597,escherichia_coli,ID_23867275,2022-06-22T18:03:24Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+598,escherichia_coli,ID_25788555,2022-10-21T16:24:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+599,escherichia_coli,ID_32338535,2024-02-17T08:16:00Z,clinical,USA:Boston,blood,Vitek,CLSI
+600,escherichia_coli,ID_23878005,2022-06-22T23:33:17Z,clinical,USA: District of Columbia,TISSUE,Phoenix,CLSI
+601,escherichia_coli,ID_12774675,2015-12-01T18:21:05Z,clinical,USA:Boston,blood,Vitek,CLSI
+602,escherichia_coli,ID_23875875,2022-06-22T23:12:07Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+603,escherichia_coli,ID_23872755,2022-06-22T18:51:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+604,escherichia_coli,ID_23877425,2022-06-22T23:26:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+605,escherichia_coli,ID_15674315,2020-11-24T01:02:33Z,environmental/other,Canada: Quebec,manure,Sensititer,CLSI
+606,escherichia_coli,ID_25786625,2022-10-21T15:48:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+607,escherichia_coli,ID_23869235,2022-06-22T18:22:00Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+608,escherichia_coli,ID_23867515,2022-06-22T18:05:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+609,escherichia_coli,ID_15674275,2020-11-24T01:02:23Z,environmental/other,Canada: Quebec,manure,Sensititer,CLSI
+610,escherichia_coli,ID_23870905,2022-06-22T18:36:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+611,escherichia_coli,ID_25788635,2022-10-21T16:26:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+612,escherichia_coli,ID_25829025,2022-10-24T23:37:53Z,environmental/other,Netherlands,retail veal,Sensititre,EUCAST
+613,escherichia_coli,ID_23880585,2022-06-22T23:51:49Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+614,escherichia_coli,ID_25831495,2022-10-24T23:55:45Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+615,escherichia_coli,ID_23878965,2022-06-22T23:39:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+616,escherichia_coli,ID_25831615,2022-10-24T23:56:20Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+617,escherichia_coli,ID_23875435,2022-06-22T23:09:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+618,escherichia_coli,ID_4567755,2019-07-12T08:46:56Z,clinical,"USA: Rochester, NY",urine,,CLSI
+619,escherichia_coli,ID_25784215,2022-10-21T15:00:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+620,escherichia_coli,ID_23885945,2022-06-23T00:38:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+621,escherichia_coli,ID_23891805,2022-06-23T01:22:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+622,escherichia_coli,ID_23860525,2022-06-22T17:02:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+623,escherichia_coli,ID_23878105,2022-06-22T23:33:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+624,escherichia_coli,ID_23890705,2022-06-23T01:11:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+625,escherichia_coli,ID_32121115,2024-02-17T16:02:41Z,clinical,USA:Boston,urine,Vitek,CLSI
+626,escherichia_coli,ID_25833375,2022-10-25T00:09:20Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+627,escherichia_coli,ID_23889685,2022-06-23T01:04:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+628,escherichia_coli,ID_32331455,2024-02-17T10:06:08Z,clinical,USA:Boston,Sacral ulcer,Vitek,CLSI
+629,escherichia_coli,ID_25832735,2022-10-25T00:04:52Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+630,escherichia_coli,ID_25788615,2022-10-21T16:26:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+631,escherichia_coli,ID_25785945,2022-10-21T15:31:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+632,escherichia_coli,ID_32333575,2024-02-17T16:02:37Z,clinical,USA:Boston,urine,Vitek,CLSI
+633,escherichia_coli,ID_25828575,2022-10-24T23:33:47Z,environmental/other,Netherlands,retail veal,Sensititre,EUCAST
+634,escherichia_coli,ID_23877225,2022-06-22T23:24:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+635,escherichia_coli,ID_25832075,2022-10-24T23:59:32Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+636,escherichia_coli,ID_23887225,2022-06-23T00:47:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+637,escherichia_coli,ID_23863505,2022-06-22T17:23:57Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+638,escherichia_coli,ID_24165085,2022-07-06T07:04:41Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+639,escherichia_coli,ID_23862785,2022-06-22T17:18:31Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+640,escherichia_coli,ID_23859105,2022-06-22T16:52:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+641,escherichia_coli,ID_15671285,2020-11-24T00:12:28Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+642,escherichia_coli,ID_12507615,2016-12-20T12:28:27Z,clinical,USA:Boston,urine,Vitek,CLSI
+643,escherichia_coli,ID_23894295,2022-06-23T03:02:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+644,escherichia_coli,ID_23880315,2022-06-22T23:49:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+645,escherichia_coli,ID_23872615,2022-06-22T18:50:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+646,escherichia_coli,ID_692455,2014-05-19T17:27:30Z,clinical,USA: Boston,urine,,
+647,escherichia_coli,ID_23858605,2022-06-22T16:49:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+648,escherichia_coli,ID_23894765,2022-06-23T03:06:02Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+649,escherichia_coli,ID_23858285,2022-06-22T16:46:41Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+650,escherichia_coli,ID_25786225,2022-10-21T15:38:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+651,escherichia_coli,ID_23862025,2022-06-22T17:13:32Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+652,escherichia_coli,ID_23880265,2022-06-22T23:49:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+653,escherichia_coli,ID_25581065,2022-10-17T14:40:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+654,escherichia_coli,ID_25827515,2022-10-24T23:25:01Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+655,escherichia_coli,ID_25783955,2022-10-21T14:54:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+656,escherichia_coli,ID_23868515,2022-06-22T18:14:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+657,escherichia_coli,ID_23884025,2022-06-23T00:22:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+658,escherichia_coli,ID_23872205,2022-06-22T18:47:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+659,escherichia_coli,ID_25832455,2022-10-25T00:02:24Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+660,escherichia_coli,ID_32330755,2024-02-19T16:56:30Z,clinical,USA:Boston,urine,Vitek,CLSI
+661,escherichia_coli,ID_12482395,2017-04-06T23:10:29Z,clinical,USA:Boston,urine,Vitek,CLSI
+662,escherichia_coli,ID_3204155,2018-06-10T08:00:08Z,clinical,,,,CLSI
+663,escherichia_coli,ID_23872315,2022-06-22T18:47:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+664,escherichia_coli,ID_23874655,2022-06-22T23:03:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+665,escherichia_coli,ID_23860985,2022-06-22T17:05:40Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+666,escherichia_coli,ID_23880745,2022-06-22T23:52:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+667,escherichia_coli,ID_25832685,2022-10-25T00:04:35Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+668,escherichia_coli,ID_23885605,2022-06-23T00:35:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+669,escherichia_coli,ID_23872365,2022-06-22T18:48:04Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+670,escherichia_coli,ID_23860605,2022-06-22T17:03:04Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+671,escherichia_coli,ID_25830495,2022-10-24T23:48:08Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+672,escherichia_coli,ID_23865675,2022-06-22T17:42:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+673,escherichia_coli,ID_32329035,2024-02-07T12:09:26Z,clinical,USA:Boston,urine,Vitek,CLSI
+674,escherichia_coli,ID_32121275,2024-02-07T14:04:06Z,clinical,USA:Boston,urine,Vitek,CLSI
+675,escherichia_coli,ID_23863245,2022-06-22T17:21:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+676,escherichia_coli,ID_23857045,2022-06-22T16:38:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+677,escherichia_coli,ID_4567005,2019-07-12T10:50:42Z,clinical,"USA: Rochester, NY",urine,,CLSI
+678,escherichia_coli,ID_23859745,2022-06-22T16:57:05Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+679,escherichia_coli,ID_23870265,2022-06-22T18:30:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+680,escherichia_coli,ID_25827415,2022-10-24T23:24:23Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+681,escherichia_coli,ID_23882265,2022-06-23T00:09:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+682,escherichia_coli,ID_25827615,2022-10-24T23:26:13Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+683,escherichia_coli,ID_25783075,2022-10-21T14:31:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+684,escherichia_coli,ID_23863365,2022-06-22T17:22:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+685,escherichia_coli,ID_32336425,2024-02-17T16:02:36Z,clinical,USA:Boston,urine,Vitek,CLSI
+686,escherichia_coli,ID_23858885,2022-06-22T16:51:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+687,escherichia_coli,ID_12482475,2017-04-06T23:10:30Z,clinical,USA:Boston,urine,Vitek,CLSI
+688,escherichia_coli,ID_23868335,2022-06-22T18:13:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+689,escherichia_coli,ID_32333715,2024-02-17T12:10:16Z,clinical,USA:Boston,urine,Vitek,CLSI
+690,escherichia_coli,ID_38080215,2024-04-11T13:50:35Z,clinical,USA:Boston,urine,Vitek,CLSI
+691,escherichia_coli,ID_23857765,2022-06-22T16:43:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+692,escherichia_coli,ID_25579145,2022-10-17T15:38:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+693,escherichia_coli,ID_23875105,2022-06-22T23:06:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+694,escherichia_coli,ID_25829015,2022-10-24T23:38:02Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+695,escherichia_coli,ID_25830105,2022-10-24T23:46:11Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+696,escherichia_coli,ID_23863405,2022-06-22T17:23:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+697,escherichia_coli,ID_23895635,2022-06-23T03:19:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+698,escherichia_coli,ID_25784515,2022-10-21T15:05:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+699,escherichia_coli,ID_12442285,2017-07-07T10:42:21Z,clinical,USA:Boston,urine,Vitek,CLSI
+700,escherichia_coli,ID_23891585,2022-06-23T01:20:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+701,escherichia_coli,ID_23894175,2022-06-23T03:01:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+702,escherichia_coli,ID_25787185,2022-10-21T16:02:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+703,escherichia_coli,ID_23868355,2022-06-22T18:13:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+704,escherichia_coli,ID_23859945,2022-06-22T16:59:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+705,escherichia_coli,ID_23856925,2022-06-22T16:38:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+706,escherichia_coli,ID_23874425,2022-06-22T23:02:37Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+707,escherichia_coli,ID_23857865,2022-06-22T16:44:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+708,escherichia_coli,ID_24164965,2022-07-06T07:04:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+709,escherichia_coli,ID_23867905,2022-06-22T18:09:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+710,escherichia_coli,ID_25580925,2022-10-17T16:49:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+711,escherichia_coli,ID_25788755,2022-10-21T16:30:13Z,clinical,USA: District of Columbia,Fluid,Phoenix,CLSI
+712,escherichia_coli,ID_32336905,2024-02-06T04:00:35Z,clinical,USA:Boston,urine,Vitek,CLSI
+713,escherichia_coli,ID_23859665,2022-06-22T16:56:40Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+714,escherichia_coli,ID_25829515,2022-10-24T23:41:00Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+715,escherichia_coli,ID_25786665,2022-10-21T15:49:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+716,escherichia_coli,ID_23881685,2022-06-23T00:06:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+717,escherichia_coli,ID_25832915,2022-10-25T00:05:38Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+718,escherichia_coli,ID_23866275,2022-06-22T17:51:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+719,escherichia_coli,ID_23861105,2022-06-22T17:06:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+720,escherichia_coli,ID_23858325,2022-06-22T16:47:00Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+721,escherichia_coli,ID_25580405,2022-10-17T15:07:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+722,escherichia_coli,ID_25828755,2022-10-24T23:34:52Z,environmental/other,Netherlands,retail beef,Sensititre,EUCAST
+723,escherichia_coli,ID_25789315,2022-10-21T16:45:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+724,escherichia_coli,ID_23889885,2022-06-23T01:05:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+725,escherichia_coli,ID_23862505,2022-06-22T17:16:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+726,escherichia_coli,ID_23895215,2022-06-23T03:17:01Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+727,escherichia_coli,ID_25788435,2022-10-21T16:20:47Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+728,escherichia_coli,ID_24166025,2022-07-06T07:09:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+729,escherichia_coli,ID_23878385,2022-06-22T23:36:01Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+730,escherichia_coli,ID_23857305,2022-06-22T16:40:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+731,escherichia_coli,ID_23860725,2022-06-22T17:03:49Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+732,escherichia_coli,ID_23866195,2022-06-22T17:50:09Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+733,escherichia_coli,ID_23885685,2022-06-23T00:36:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+734,escherichia_coli,ID_36668495,2024-02-15T22:08:09Z,clinical,USA:Boston,Urinary tract infection,Vitek,CLSI
+735,escherichia_coli,ID_15672345,2020-11-24T00:31:12Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+736,escherichia_coli,ID_23874585,2022-06-22T23:03:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+737,escherichia_coli,ID_25782935,2022-10-21T14:28:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+738,escherichia_coli,ID_23887005,2022-06-23T00:46:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+739,escherichia_coli,ID_25788895,2022-10-21T16:33:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+740,escherichia_coli,ID_23872025,2022-06-22T18:45:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+741,escherichia_coli,ID_23868455,2022-06-22T18:13:41Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+742,escherichia_coli,ID_23879815,2022-06-22T23:46:16Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+743,escherichia_coli,ID_23868115,2022-06-22T18:10:48Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+744,escherichia_coli,ID_32121955,2024-02-04T17:05:03Z,clinical,USA:Boston,Foot ulcer,Vitek,CLSI
+745,escherichia_coli,ID_23866135,2022-06-22T17:49:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+746,escherichia_coli,ID_23871005,2022-06-22T18:37:16Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+747,escherichia_coli,ID_23877265,2022-06-22T23:24:47Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+748,escherichia_coli,ID_15671575,2020-11-24T00:16:32Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+749,escherichia_coli,ID_15671825,2020-11-24T00:20:16Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+750,escherichia_coli,ID_23886205,2022-06-23T00:40:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+751,escherichia_coli,ID_32334035,2024-02-06T12:03:17Z,clinical,USA:Boston,urine,Vitek,CLSI
+752,escherichia_coli,ID_25829535,2022-10-24T23:41:10Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+753,escherichia_coli,ID_23881135,2022-06-23T00:02:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+754,escherichia_coli,ID_23877105,2022-06-22T23:24:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+755,escherichia_coli,ID_25789475,2022-10-21T16:49:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+756,escherichia_coli,ID_25789455,2022-10-21T16:49:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+757,escherichia_coli,ID_25783855,2022-10-21T14:51:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+758,escherichia_coli,ID_23856825,2022-06-22T16:37:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+759,escherichia_coli,ID_25829295,2022-10-24T23:39:06Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+760,escherichia_coli,ID_4567665,2019-04-03T01:02:27Z,clinical,"USA: Rochester, NY",urine,,CLSI
+761,escherichia_coli,ID_23883485,2022-06-23T00:19:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+762,escherichia_coli,ID_32331915,2024-02-16T20:26:18Z,clinical,USA:Boston,blood,Vitek,CLSI
+763,escherichia_coli,ID_25829115,2022-10-24T23:38:19Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+764,escherichia_coli,ID_4681485,2019-04-16T08:44:20Z,clinical,"USA: Rochester, NY",urine,,CLSI
+765,escherichia_coli,ID_23862905,2022-06-22T17:19:02Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+766,escherichia_coli,ID_23891545,2022-06-23T01:19:39Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+767,escherichia_coli,ID_25828415,2022-10-24T23:32:21Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+768,escherichia_coli,ID_23886725,2022-06-23T00:43:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+769,escherichia_coli,ID_23877165,2022-06-22T23:24:29Z,clinical,USA: District of Columbia,TISSUE,Phoenix,CLSI
+770,escherichia_coli,ID_4567355,2019-07-12T10:50:38Z,clinical,"USA: Rochester, NY",urine,,CLSI
+771,escherichia_coli,ID_23889525,2022-06-23T01:03:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+772,escherichia_coli,ID_23891285,2022-06-23T01:18:19Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+773,escherichia_coli,ID_23894835,2022-06-23T03:06:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+774,escherichia_coli,ID_23891625,2022-06-23T01:20:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+775,escherichia_coli,ID_23892285,2022-06-23T01:25:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+776,escherichia_coli,ID_23884285,2022-06-23T00:25:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+777,escherichia_coli,ID_23858405,2022-06-22T16:47:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+778,escherichia_coli,ID_25828115,2022-10-24T23:30:07Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+779,escherichia_coli,ID_25828015,2022-10-24T23:29:29Z,environmental/other,Netherlands,retail beef,Sensititre,EUCAST
+780,escherichia_coli,ID_32122695,2024-02-07T06:05:30Z,clinical,USA:Boston,Breast abscess,Vitek,CLSI
+781,escherichia_coli,ID_23866005,2022-06-22T17:48:50Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+782,escherichia_coli,ID_23863865,2022-06-22T17:26:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+783,escherichia_coli,ID_23880805,2022-06-22T23:52:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+784,escherichia_coli,ID_23872285,2022-06-22T18:47:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+785,escherichia_coli,ID_23875175,2022-06-22T23:06:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+786,escherichia_coli,ID_23866715,2022-06-22T17:55:43Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+787,escherichia_coli,ID_25830255,2022-10-24T23:46:36Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+788,escherichia_coli,ID_12707365,2016-04-12T18:10:24Z,clinical,USA:Boston,blood,Vitek,CLSI
+789,escherichia_coli,ID_4566565,2019-07-12T10:50:45Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+790,escherichia_coli,ID_25832295,2022-10-25T00:01:35Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+791,escherichia_coli,ID_23861345,2022-06-22T17:08:31Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+792,escherichia_coli,ID_25785685,2022-10-21T15:24:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+793,escherichia_coli,ID_32336775,2024-02-05T20:15:29Z,clinical,USA:Boston,blood,Vitek,CLSI
+794,escherichia_coli,ID_24165545,2022-07-06T07:05:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+795,escherichia_coli,ID_23878755,2022-06-22T23:38:53Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+796,escherichia_coli,ID_25827275,2022-10-24T23:23:37Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+797,escherichia_coli,ID_23889645,2022-06-23T01:04:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+798,escherichia_coli,ID_23872465,2022-06-22T18:49:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+799,escherichia_coli,ID_25580765,2022-10-17T15:12:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+800,escherichia_coli,ID_4566675,2019-07-12T10:50:48Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+801,escherichia_coli,ID_12479925,2017-04-14T13:24:50Z,clinical,USA:Boston,urine,Vitek,CLSI
+802,escherichia_coli,ID_32333515,2024-02-18T14:04:50Z,clinical,USA:Boston,blood,Vitek,CLSI
+803,escherichia_coli,ID_23858145,2022-06-22T16:45:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+804,escherichia_coli,ID_23889865,2022-06-23T01:05:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+805,escherichia_coli,ID_34514855,2023-12-20T06:56:09Z,clinical,USA:Boston,blood,Vitek,CLSI
+806,escherichia_coli,ID_23861245,2022-06-22T17:07:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+807,escherichia_coli,ID_23884905,2022-06-23T00:31:37Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+808,escherichia_coli,ID_23880565,2022-06-22T23:51:41Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+809,escherichia_coli,ID_25832335,2022-10-25T00:01:51Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+810,escherichia_coli,ID_23861825,2022-06-22T17:11:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+811,escherichia_coli,ID_32328175,2024-02-17T06:12:36Z,clinical,USA:Boston,urine,Vitek,CLSI
+812,escherichia_coli,ID_23870965,2022-06-22T18:36:57Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+813,escherichia_coli,ID_25831775,2022-10-24T23:56:58Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+814,escherichia_coli,ID_25580165,2022-10-17T15:21:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+815,escherichia_coli,ID_25829245,2022-10-24T23:38:57Z,environmental/other,Netherlands,retail pork,Sensititre,EUCAST
+816,escherichia_coli,ID_23883585,2022-06-23T00:19:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+817,escherichia_coli,ID_25785365,2022-10-21T15:16:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+818,escherichia_coli,ID_32329575,2024-02-18T23:57:02Z,clinical,USA:Boston,wound,Vitek,CLSI
+819,escherichia_coli,ID_23877185,2022-06-22T23:24:30Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+820,escherichia_coli,ID_25830415,2022-10-24T23:47:52Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+821,escherichia_coli,ID_23884645,2022-06-23T00:27:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+822,escherichia_coli,ID_23869595,2022-06-22T18:25:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+823,escherichia_coli,ID_23869765,2022-06-22T18:26:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+824,escherichia_coli,ID_23877685,2022-06-22T23:27:37Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+825,escherichia_coli,ID_15674655,2020-11-24T01:07:32Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+826,escherichia_coli,ID_25788125,2022-10-21T16:12:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+827,escherichia_coli,ID_23879725,2022-06-22T23:45:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+828,escherichia_coli,ID_15674255,2020-11-24T01:02:14Z,environmental/other,Canada: Quebec,manure,Sensititer,CLSI
+829,escherichia_coli,ID_25579385,2022-10-17T15:31:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+830,escherichia_coli,ID_32333415,2024-02-16T18:37:20Z,clinical,USA:Boston,urine,Vitek,CLSI
+831,escherichia_coli,ID_25788795,2022-10-21T16:30:32Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+832,escherichia_coli,ID_25828715,2022-10-24T23:34:41Z,environmental/other,Netherlands,retail lamb,Sensititre,EUCAST
+833,escherichia_coli,ID_23883885,2022-06-23T00:21:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+834,escherichia_coli,ID_4567275,2019-07-12T10:50:36Z,clinical,"USA: Rochester, NY",urine,,CLSI
+835,escherichia_coli,ID_4567745,2019-07-12T08:46:56Z,clinical,"USA: Rochester, NY",urine,,CLSI
+836,escherichia_coli,ID_23894355,2022-06-23T03:02:54Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+837,escherichia_coli,ID_23867055,2022-06-22T18:02:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+838,escherichia_coli,ID_23860125,2022-06-22T17:00:02Z,clinical,USA: District of Columbia,Tissue,Phoenix,CLSI
+839,escherichia_coli,ID_32332215,2024-02-05T05:58:56Z,clinical,USA:Boston,blood,Vitek,CLSI
+840,escherichia_coli,ID_23880095,2022-06-22T23:48:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+841,escherichia_coli,ID_23894955,2022-06-23T03:07:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+842,escherichia_coli,ID_25829135,2022-10-24T23:38:27Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+843,escherichia_coli,ID_24165105,2022-07-06T07:04:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+844,escherichia_coli,ID_23885975,2022-06-23T00:38:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+845,escherichia_coli,ID_23878725,2022-06-22T23:38:37Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+846,escherichia_coli,ID_25787035,2022-10-21T15:58:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+847,escherichia_coli,ID_23877855,2022-06-22T23:32:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+848,escherichia_coli,ID_23858025,2022-06-22T16:45:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+849,escherichia_coli,ID_23858525,2022-06-22T16:48:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+850,escherichia_coli,ID_4567415,2019-07-12T10:50:35Z,clinical,"USA: Rochester, NY",sepsis,,CLSI
+851,escherichia_coli,ID_23866215,2022-06-22T17:51:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+852,escherichia_coli,ID_25829755,2022-10-24T23:43:19Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+853,escherichia_coli,ID_25783755,2022-10-21T14:49:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+854,escherichia_coli,ID_23869525,2022-06-22T18:23:55Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+855,escherichia_coli,ID_23878785,2022-06-22T23:39:01Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+856,escherichia_coli,ID_12442945,2017-07-05T18:42:04Z,clinical,USA:Boston,urine,Vitek,CLSI
+857,escherichia_coli,ID_23885625,2022-06-23T00:36:07Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+858,escherichia_coli,ID_23858305,2022-06-22T16:46:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+859,escherichia_coli,ID_25785185,2022-10-21T15:12:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+860,escherichia_coli,ID_15675195,2020-11-24T01:16:13Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+861,escherichia_coli,ID_23867695,2022-06-22T18:07:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+862,escherichia_coli,ID_23872165,2022-06-22T18:47:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+863,escherichia_coli,ID_23866885,2022-06-22T17:57:17Z,clinical,USA: District of Columbia,Fluid,Phoenix,CLSI
+864,escherichia_coli,ID_25783275,2022-10-21T14:37:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+865,escherichia_coli,ID_25829195,2022-10-24T23:38:39Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+866,escherichia_coli,ID_25789355,2022-10-21T16:46:20Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+867,escherichia_coli,ID_25786105,2022-10-21T15:35:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+868,escherichia_coli,ID_23877645,2022-06-22T23:27:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+869,escherichia_coli,ID_23875045,2022-06-22T23:06:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+870,escherichia_coli,ID_23882945,2022-06-23T00:13:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+871,escherichia_coli,ID_25833495,2022-10-25T00:10:13Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+872,escherichia_coli,ID_23857245,2022-06-22T16:39:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+873,escherichia_coli,ID_23882685,2022-06-23T00:12:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+874,escherichia_coli,ID_23868535,2022-06-22T18:14:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+875,escherichia_coli,ID_23874685,2022-06-22T23:03:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+876,escherichia_coli,ID_15671185,2020-11-24T00:11:14Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+877,escherichia_coli,ID_25783975,2022-10-21T14:54:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+878,escherichia_coli,ID_25786205,2022-10-21T15:37:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+879,escherichia_coli,ID_23878025,2022-06-22T23:33:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+880,escherichia_coli,ID_23870005,2022-06-22T18:28:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+881,escherichia_coli,ID_23924205,2022-06-27T09:42:32Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+882,escherichia_coli,ID_23878185,2022-06-22T23:34:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+883,escherichia_coli,ID_32338135,2024-02-17T10:06:07Z,clinical,USA:Boston,urine,Vitek,CLSI
+884,escherichia_coli,ID_23885285,2022-06-23T00:33:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+885,escherichia_coli,ID_23856965,2022-06-22T16:38:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+886,escherichia_coli,ID_23868215,2022-06-22T18:12:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+887,escherichia_coli,ID_25831855,2022-10-24T23:58:26Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+888,escherichia_coli,ID_24165945,2022-07-06T07:08:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+889,escherichia_coli,ID_25785965,2022-10-21T15:31:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+890,escherichia_coli,ID_23890325,2022-06-23T01:09:00Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+891,escherichia_coli,ID_23867805,2022-06-22T18:08:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+892,escherichia_coli,ID_34514735,2023-12-20T07:53:43Z,clinical,USA:Boston,urine,Vitek,CLSI
+893,escherichia_coli,ID_23860205,2022-06-22T17:00:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+894,escherichia_coli,ID_692375,2014-05-19T17:24:41Z,clinical,USA: Boston,urine,,
+895,escherichia_coli,ID_25789195,2022-10-21T16:42:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+896,escherichia_coli,ID_23881445,2022-06-23T00:03:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+897,escherichia_coli,ID_25789435,2022-10-21T16:48:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+898,escherichia_coli,ID_25831455,2022-10-24T23:55:27Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+899,escherichia_coli,ID_32330875,2024-02-21T14:07:40Z,clinical,USA:Boston,urine,Vitek,CLSI
+900,escherichia_coli,ID_25580005,2022-10-17T16:45:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+901,escherichia_coli,ID_23858105,2022-06-22T16:45:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+902,escherichia_coli,ID_32123155,2024-02-07T06:05:30Z,clinical,USA:Boston,urine,Vitek,CLSI
+903,escherichia_coli,ID_25788815,2022-10-21T16:31:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+904,escherichia_coli,ID_32332355,2024-02-17T16:02:37Z,clinical,USA:Boston,urine,Vitek,CLSI
+905,escherichia_coli,ID_25783735,2022-10-21T14:48:23Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+906,escherichia_coli,ID_23883205,2022-06-23T00:16:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+907,escherichia_coli,ID_23876775,2022-06-22T23:21:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+908,escherichia_coli,ID_23887285,2022-06-23T00:47:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+909,escherichia_coli,ID_24166285,2022-07-06T07:11:39Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+910,escherichia_coli,ID_25829395,2022-10-24T23:39:50Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+911,escherichia_coli,ID_25829545,2022-10-24T23:41:13Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+912,escherichia_coli,ID_23895465,2022-06-23T03:18:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+913,escherichia_coli,ID_23876525,2022-06-22T23:19:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+914,escherichia_coli,ID_23880595,2022-06-22T23:51:57Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+915,escherichia_coli,ID_23879455,2022-06-22T23:43:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+916,escherichia_coli,ID_23890755,2022-06-23T01:11:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+917,escherichia_coli,ID_23861465,2022-06-22T17:09:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+918,escherichia_coli,ID_23863425,2022-06-22T17:23:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+919,escherichia_coli,ID_32328635,2024-02-07T08:06:39Z,clinical,USA:Boston,urine,Vitek,CLSI
+920,escherichia_coli,ID_32120315,2024-02-21T08:27:22Z,clinical,USA:Boston,urine,Vitek,CLSI
+921,escherichia_coli,ID_23885185,2022-06-23T00:33:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+922,escherichia_coli,ID_23874705,2022-06-22T23:03:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+923,escherichia_coli,ID_25786565,2022-10-21T15:46:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+924,escherichia_coli,ID_25784635,2022-10-21T15:06:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+925,escherichia_coli,ID_12769515,2015-12-12T21:21:17Z,clinical,USA:Boston,urine,,CLSI
+926,escherichia_coli,ID_25830095,2022-10-24T23:46:04Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+927,escherichia_coli,ID_25789635,2022-10-21T16:53:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+928,escherichia_coli,ID_23882405,2022-06-23T00:10:28Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+929,escherichia_coli,ID_23890605,2022-06-23T01:10:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+930,escherichia_coli,ID_12443005,2017-07-05T18:42:06Z,clinical,USA:Boston,bile,Vitek,CLSI
+931,escherichia_coli,ID_23882805,2022-06-23T00:13:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+932,escherichia_coli,ID_12587435,2016-09-20T15:19:53Z,clinical,USA:Boston,rectal,Vitek,CLSI
+933,escherichia_coli,ID_25788515,2022-10-21T16:23:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+934,escherichia_coli,ID_23860465,2022-06-22T17:02:27Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+935,escherichia_coli,ID_23885565,2022-06-23T00:35:40Z,clinical,USA: District of Columbia,Perirectal,Phoenix,CLSI
+936,escherichia_coli,ID_15671965,2020-11-24T00:22:21Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+937,escherichia_coli,ID_23876545,2022-06-22T23:19:04Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+938,escherichia_coli,ID_32336615,2024-02-07T09:57:29Z,clinical,USA:Boston,urine,Vitek,CLSI
+939,escherichia_coli,ID_23870205,2022-06-22T18:30:29Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+940,escherichia_coli,ID_23872195,2022-06-22T18:47:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+941,escherichia_coli,ID_23880465,2022-06-22T23:50:06Z,clinical,USA: District of Columbia,Perirectal,Phoenix,CLSI
+942,escherichia_coli,ID_15671925,2020-11-24T00:21:19Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+943,escherichia_coli,ID_12774535,2015-11-25T15:17:43Z,clinical,USA:Boston,blood,Vitek,CLSI
+944,escherichia_coli,ID_32331335,2024-02-17T08:16:03Z,clinical,USA:Boston,urine,Vitek,CLSI
+945,escherichia_coli,ID_23859225,2022-06-22T16:53:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+946,escherichia_coli,ID_23875365,2022-06-22T23:09:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+947,escherichia_coli,ID_23875145,2022-06-22T23:06:44Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+948,escherichia_coli,ID_23857825,2022-06-22T16:43:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+949,escherichia_coli,ID_4567065,2019-04-03T01:01:25Z,clinical,"USA: Rochester, NY",urine,,CLSI
+950,escherichia_coli,ID_23882905,2022-06-23T00:13:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+951,escherichia_coli,ID_13084545,2024-02-26T13:22:35Z,clinical,USA:Boston,urine,Vitek,CLSI
+952,escherichia_coli,ID_13084405,2016-12-20T12:28:28Z,clinical,USA:Boston,urine,Vitek,CLSI
+953,escherichia_coli,ID_23862285,2022-06-22T17:14:55Z,clinical,USA: District of Columbia,Perirectal,Phoenix,CLSI
+954,escherichia_coli,ID_25832415,2022-10-25T00:02:16Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+955,escherichia_coli,ID_23890205,2022-06-23T01:08:09Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+956,escherichia_coli,ID_23868735,2022-06-22T18:17:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+957,escherichia_coli,ID_23858385,2022-06-22T16:47:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+958,escherichia_coli,ID_23861645,2022-06-22T17:10:39Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+959,escherichia_coli,ID_23886605,2022-06-23T00:43:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+960,escherichia_coli,ID_23858505,2022-06-22T16:48:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+961,escherichia_coli,ID_31835205,2024-02-19T20:08:57Z,clinical,USA:Boston,urine,Vitek,CLSI
+962,escherichia_coli,ID_23860645,2022-06-22T17:03:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+963,escherichia_coli,ID_23871665,2022-06-22T18:42:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+964,escherichia_coli,ID_23889545,2022-06-23T01:03:51Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+965,escherichia_coli,ID_23867965,2022-06-22T18:09:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+966,escherichia_coli,ID_25829575,2022-10-24T23:42:11Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+967,escherichia_coli,ID_23895295,2022-06-23T03:17:18Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+968,escherichia_coli,ID_23891695,2022-06-23T01:20:50Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+969,escherichia_coli,ID_25579845,2022-10-17T15:00:13Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+970,escherichia_coli,ID_32335335,2024-02-17T16:02:36Z,clinical,USA:Boston,urine,Vitek,CLSI
+971,escherichia_coli,ID_25829375,2022-10-24T23:39:41Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+972,escherichia_coli,ID_23870235,2022-06-22T18:30:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+973,escherichia_coli,ID_15675305,2020-11-24T01:17:16Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+974,escherichia_coli,ID_23874745,2022-06-22T23:03:55Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+975,escherichia_coli,ID_23861565,2022-06-22T17:09:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+976,escherichia_coli,ID_23887345,2022-06-23T00:48:25Z,clinical,USA: District of Columbia,Perirectal,Phoenix,CLSI
+977,escherichia_coli,ID_23876585,2022-06-22T23:20:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+978,escherichia_coli,ID_23861485,2022-06-22T17:09:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+979,escherichia_coli,ID_23871205,2022-06-22T18:38:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+980,escherichia_coli,ID_25785565,2022-10-21T15:21:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+981,escherichia_coli,ID_12479835,2017-04-13T19:03:54Z,clinical,USA:Boston,urine,Vitek,CLSI
+982,escherichia_coli,ID_15672385,2020-11-24T00:31:22Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+983,escherichia_coli,ID_32333835,2024-02-19T20:08:54Z,clinical,USA:Boston,urine,Vitek,CLSI
+984,escherichia_coli,ID_23864005,2022-06-22T17:27:17Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+985,escherichia_coli,ID_23883605,2022-06-23T00:19:59Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+986,escherichia_coli,ID_23870595,2022-06-22T18:33:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+987,escherichia_coli,ID_25833155,2022-10-25T00:07:07Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+988,escherichia_coli,ID_25580885,2022-10-17T15:36:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+989,escherichia_coli,ID_23859685,2022-06-22T16:56:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+990,escherichia_coli,ID_23874965,2022-06-22T23:06:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+991,escherichia_coli,ID_32337635,2024-02-21T14:07:37Z,clinical,USA:Boston,urine,Vitek,CLSI
+992,escherichia_coli,ID_23887615,2022-06-23T00:50:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+993,escherichia_coli,ID_23876385,2022-06-22T23:18:30Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+994,escherichia_coli,ID_23862805,2022-06-22T17:18:39Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+995,escherichia_coli,ID_25833275,2022-10-25T00:07:57Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+996,escherichia_coli,ID_23877605,2022-06-22T23:27:19Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+997,escherichia_coli,ID_25784035,2022-10-21T14:56:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+998,escherichia_coli,ID_25783435,2022-10-21T14:41:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+999,escherichia_coli,ID_15671855,2020-11-24T00:21:09Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+1000,escherichia_coli,ID_23894745,2022-06-23T03:06:02Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1001,escherichia_coli,ID_25786365,2022-10-21T15:41:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1002,escherichia_coli,ID_23883945,2022-06-23T00:22:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1003,escherichia_coli,ID_23894615,2022-06-23T03:05:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1004,escherichia_coli,ID_25786875,2022-10-21T15:54:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1005,escherichia_coli,ID_23872115,2022-06-22T18:46:35Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1006,escherichia_coli,ID_25580065,2022-10-17T15:09:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1007,escherichia_coli,ID_25830975,2022-10-24T23:51:17Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+1008,escherichia_coli,ID_23866635,2022-06-22T17:55:09Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+1009,escherichia_coli,ID_23878035,2022-06-22T23:33:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1010,escherichia_coli,ID_25831815,2022-10-24T23:58:10Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+1011,escherichia_coli,ID_32331795,2024-02-17T08:16:02Z,clinical,USA:Boston,urine,Vitek,CLSI
+1012,escherichia_coli,ID_23858005,2022-06-22T16:45:16Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1013,escherichia_coli,ID_23860585,2022-06-22T17:03:01Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1014,escherichia_coli,ID_23883665,2022-06-23T00:20:16Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1015,escherichia_coli,ID_25786085,2022-10-21T15:34:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1016,escherichia_coli,ID_32335355,2024-02-06T18:05:24Z,clinical,USA:Boston,blood,Vitek,CLSI
+1017,escherichia_coli,ID_12642945,2016-07-25T12:20:10Z,clinical,USA:Boston,abscess,Vitek,CLSI
+1018,escherichia_coli,ID_23868835,2022-06-22T18:18:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1019,escherichia_coli,ID_23860185,2022-06-22T17:00:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1020,escherichia_coli,ID_23863805,2022-06-22T17:25:15Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+1021,escherichia_coli,ID_32338115,2023-07-27T13:49:25Z,clinical,USA:Boston,Rectal,Vitek,CLSI
+1022,escherichia_coli,ID_23895045,2022-06-23T03:08:15Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1023,escherichia_coli,ID_23895855,2022-06-23T03:20:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1024,escherichia_coli,ID_25783835,2022-10-21T14:50:44Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+1025,escherichia_coli,ID_23872045,2022-06-22T18:46:10Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1026,escherichia_coli,ID_23876245,2022-06-22T23:17:54Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1027,escherichia_coli,ID_34514775,2023-12-20T06:56:09Z,clinical,USA:Boston,urine,Vitek,CLSI
+1028,escherichia_coli,ID_23860485,2022-06-22T17:02:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1029,escherichia_coli,ID_25784455,2022-10-21T15:05:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1030,escherichia_coli,ID_23857025,2022-06-22T16:38:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1031,escherichia_coli,ID_23892205,2022-06-23T01:25:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1032,escherichia_coli,ID_15674245,2020-11-24T01:02:08Z,environmental/other,Canada: Quebec,manure,Sensititer,CLSI
+1033,escherichia_coli,ID_24165745,2022-07-06T07:07:42Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1034,escherichia_coli,ID_23867235,2022-06-22T18:03:15Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+1035,escherichia_coli,ID_23881605,2022-06-23T00:04:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1036,escherichia_coli,ID_23884315,2022-06-23T00:25:34Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1037,escherichia_coli,ID_25784575,2022-10-21T15:06:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1038,escherichia_coli,ID_26413155,2022-11-27T11:28:41Z,clinical,Portugal: Aveiro,Pus,Vitek,EUCAST
+1039,escherichia_coli,ID_23883685,2022-06-23T00:20:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1040,escherichia_coli,ID_23863345,2022-06-22T17:22:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1041,escherichia_coli,ID_31776345,2024-02-07T04:08:19Z,clinical,USA:Boston,urine,Vitek,CLSI
+1042,escherichia_coli,ID_23859925,2022-06-22T16:58:54Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1043,escherichia_coli,ID_23874535,2022-06-22T23:03:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1044,escherichia_coli,ID_25789875,2022-10-21T16:59:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1045,escherichia_coli,ID_4569995,2019-07-11T18:35:24Z,clinical,"USA: Rochester, NY",urine,,CLSI
+1046,escherichia_coli,ID_23875525,2022-06-22T23:09:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1047,escherichia_coli,ID_23860225,2022-06-22T17:00:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1048,escherichia_coli,ID_32333355,2024-02-17T00:09:37Z,clinical,USA:Boston,urine,Vitek,CLSI
+1049,escherichia_coli,ID_23889765,2022-06-23T01:04:43Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1050,escherichia_coli,ID_25782955,2022-10-21T14:28:32Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1051,escherichia_coli,ID_23862625,2022-06-22T17:17:41Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1052,escherichia_coli,ID_25783775,2022-10-21T14:49:21Z,clinical,USA: District of Columbia,other,Phoenix,CLSI
+1053,escherichia_coli,ID_23859585,2022-06-22T16:56:21Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1054,escherichia_coli,ID_25828855,2022-10-24T23:35:35Z,environmental/other,Netherlands,retail chicken,Sensititre,EUCAST
+1055,escherichia_coli,ID_20373085,2016-10-01T15:22:36Z,clinical,USA:Boston,urine,Vitek,CLSI
+1056,escherichia_coli,ID_31775975,2024-02-07T12:09:25Z,clinical,USA:Boston,urine,Vitek,CLSI
+1057,escherichia_coli,ID_23886925,2022-06-23T00:45:07Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1058,escherichia_coli,ID_23894785,2022-06-23T03:06:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1059,escherichia_coli,ID_23863765,2022-06-22T17:25:06Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1060,escherichia_coli,ID_23889595,2022-06-23T01:04:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1061,escherichia_coli,ID_23894275,2022-06-23T03:02:04Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1062,escherichia_coli,ID_25830775,2022-10-24T23:49:59Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+1063,escherichia_coli,ID_15673555,2020-11-24T00:50:26Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+1064,escherichia_coli,ID_23857605,2022-06-22T16:42:10Z,clinical,USA: District of Columbia,wound,Phoenix,CLSI
+1065,escherichia_coli,ID_23880985,2022-06-22T23:54:25Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1066,escherichia_coli,ID_23860325,2022-06-22T17:01:39Z,clinical,USA: District of Columbia,blood,Phoenix,CLSI
+1067,escherichia_coli,ID_23891165,2022-06-23T01:17:26Z,clinical,USA: District of Columbia,Perirectal,Phoenix,CLSI
+1068,escherichia_coli,ID_23861385,2022-06-22T17:08:52Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1069,escherichia_coli,ID_23868925,2022-06-22T18:18:58Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1070,escherichia_coli,ID_23858565,2022-06-22T16:49:12Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1071,escherichia_coli,ID_23884405,2022-06-23T00:26:11Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1072,escherichia_coli,ID_23877715,2022-06-22T23:27:45Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1073,escherichia_coli,ID_12478455,2017-04-16T05:08:35Z,clinical,USA:Boston,urine,Vitek,CLSI
+1074,escherichia_coli,ID_23858925,2022-06-22T16:51:20Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1075,escherichia_coli,ID_23870465,2022-06-22T18:32:40Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1076,escherichia_coli,ID_23870945,2022-06-22T18:36:46Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1077,escherichia_coli,ID_12707185,2016-04-12T18:10:24Z,clinical,USA:Boston,blood,Vitek,CLSI
+1078,escherichia_coli,ID_25830935,2022-10-24T23:51:08Z,environmental/other,Netherlands,cecal content,Sensititre,EUCAST
+1079,escherichia_coli,ID_15672375,2020-11-24T00:31:17Z,clinical,Canada: Quebec,feces,Sensititer,CLSI
+1080,escherichia_coli,ID_32333895,2024-02-18T23:56:59Z,clinical,USA:Boston,blood,Vitek,CLSI
+1081,escherichia_coli,ID_24165345,2022-07-06T07:05:22Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1082,escherichia_coli,ID_3031815,2018-04-03T13:43:08Z,clinical,USA:Boston,urine,Vitek,CLSI
+1083,escherichia_coli,ID_32337835,2024-02-17T02:04:50Z,clinical,USA:Boston,urine,Vitek,CLSI
+1084,escherichia_coli,ID_23877005,2022-06-22T23:23:38Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1085,escherichia_coli,ID_23859825,2022-06-22T16:57:26Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1086,escherichia_coli,ID_23874785,2022-06-22T23:04:08Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1087,escherichia_coli,ID_23868195,2022-06-22T18:12:09Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1088,escherichia_coli,ID_23881295,2022-06-23T00:02:36Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1089,escherichia_coli,ID_23870785,2022-06-22T18:35:03Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
+1090,escherichia_coli,ID_25827115,2022-10-24T23:21:27Z,environmental/other,Netherlands,retail beef,Sensititre,EUCAST
+1091,escherichia_coli,ID_23895535,2022-06-23T03:18:33Z,clinical,USA: District of Columbia,urine,Phoenix,CLSI
